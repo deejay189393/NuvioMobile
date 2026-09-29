@@ -1,0 +1,42 @@
+[03:14:10] flavor=baseline-full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[03:14:21] Performing Streamed Install
+Success
+[03:14:21] letting the emulator settle
+[03:15:30] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[03:15:32] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[03:15:33] tap 'Continue Without Account' at 540,1877
+[03:15:40] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[03:15:40] tap 'Manage Profiles' at 540,816
+[03:15:47] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[03:15:47] add-profile candidates: [(343, 641, 737, 1053)]
+[03:15:47] tap '' at 540,847
+[03:15:54] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[03:15:54] tap 'Profile name' at 247,845
+[03:15:59] keyboard hidden
+[03:16:02] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[03:16:02] tap 'Create Profile' at 540,2018
+[03:16:10] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[03:16:13] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[03:16:13] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 271
+WaitTime: 284
+Complete 
+[03:16:28] shot 09-addon-installed: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[03:16:28] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 222
+WaitTime: 231
+Complete 
+[03:16:43] shot 10-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[03:16:43] tap 'View Details' at 540,1154
+[03:16:56] shot 11-details-0: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Play', 'More actions', '1987', 'Test item. This addon\'s only stream for it is { "ytId": "dQw4w9WgXcQ" }.', 'Movie Details', 'Release Info', '1987', 'Back']
+[03:16:56] tap 'Play' at 489,1504
+[03:17:09] shot 12-streams: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'No streams found', 'None of your installed addons returned streams for this title.', 'Back']
+[03:17:21] shot 13-streams-retry: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'No streams found', 'None of your installed addons returned streams for this title.', 'Back']
+[03:17:21] RESULT: ytId stream not listed
+[03:17:21] done

@@ -66,13 +66,17 @@ def shot(name):
     xml = dump()
     ns = nodes(xml)
     for _ in range(3):
-        if not any("isn't responding" in t for t in visible_text(ns)):
+        texts = visible_text(ns)
+        if any("isn't responding" in t for t in texts):
+            button, what = find(ns, "Wait"), "a system 'not responding' dialog"
+        elif "Viewing full screen" in texts:
+            button, what = find(ns, "Got it"), "the full-screen hint"
+        else:
             break
-        wait = find(ns, "Wait")
-        if not wait:
+        if not button:
             break
-        tap(wait)
-        log("dismissed a system 'not responding' dialog")
+        tap(button)
+        log(f"dismissed {what}")
         time.sleep(3)
         xml = dump()
         ns = nodes(xml)
@@ -170,6 +174,7 @@ def open_url(url):
 def main():
     log(f"flavor={FLAVOR} apk={APK}")
     log(adb("install", "-r", "-g", APK, timeout=600).stdout.decode().strip())
+    adb("shell", "settings", "put", "secure", "immersive_mode_confirmations", "confirmed")
     adb("logcat", "-c")
     adb("shell", "monkey", "-p", PKG, "-c", "android.intent.category.LAUNCHER", "1")
     time.sleep(20)

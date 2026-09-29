@@ -1,0 +1,51 @@
+[02:14:42] flavor=full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[02:14:53] Performing Streamed Install
+Success
+[02:15:19] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:15:22] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:15:22] tap 'Continue Without Account' at 540,1877
+[02:15:31] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[02:15:31] tap 'Manage Profiles' at 540,816
+[02:15:40] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[02:15:40] add-profile candidates: [(343, 641, 737, 1053)]
+[02:15:40] tap '' at 540,847
+[02:15:47] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:15:47] tap 'Profile name' at 247,845
+[02:15:54] keyboard hidden
+[02:15:57] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:15:57] tap 'Create Profile' at 540,2018
+[02:16:06] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:16:09] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:16:10] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 463
+WaitTime: 512
+Complete 
+[02:16:24] shot 09-addon-installed: ['Overview', '1', 'Addons', '1', 'Active', '1', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'YouTube ID Test', 'Version 1.0.0', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'Streams that only carry a ytId', 'Movie • catalog, meta, stream • 1 id rules', 'Back', 'Addons']
+[02:16:24] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 226
+WaitTime: 237
+Complete 
+[02:16:40] shot 10-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:16:40] tap 'View Details' at 540,1154
+[02:16:53] shot 11-details-0: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Play', 'More actions', '1987', 'Test item. This addon\'s only stream for it is { "ytId": "dQw4w9WgXcQ" }.', 'Movie Details', 'Release Info', '1987', 'Back']
+[02:16:53] tap 'Play' at 489,1504
+[02:17:05] shot 12-streams: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'YouTube ID Test', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'Back']
+[02:17:05] RESULT: ytId stream listed
+[02:17:05] tap 'Never Gonna Give You Up\nytId only, no url' at 257,755
+[02:17:09] shot 13-after-select-1s: ['Close player', 'Never Gonna Give You Up', 'Loading YouTube video']
+[02:17:17] shot 14-after-select-3s: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:17:26] shot 15-after-select-6s: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:17:43] shot 16-after-select-12s: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:18:00] shot 17-after-select-25s: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:18:16] shot 18-after-select-45s: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:18:38] shot 19-controls-0: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:18:48] shot 20-controls-1: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:18:58] shot 21-controls-2: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:19:29] shot 22-final: ['Viewing full screen', 'To exit, swipe down from the top.', 'Got it']
+[02:19:30] done

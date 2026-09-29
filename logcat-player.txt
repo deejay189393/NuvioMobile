@@ -1,0 +1,373 @@
+09-29 02:14:54.218 D/AndroidRuntime( 3419): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:14:54.243 I/AndroidRuntime( 3419): Using default boot image
+09-29 02:14:54.243 I/AndroidRuntime( 3419): Leaving lock profiling enabled
+09-29 02:14:54.840 D/AndroidRuntime( 3419): Calling main entry com.android.commands.monkey.Monkey
+09-29 02:14:55.115 I/AndroidRuntime( 3419): VM exiting with result code 0.
+09-29 02:15:16.422 D/AndroidRuntime( 4793): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:15:16.431 I/AndroidRuntime( 4793): Using default boot image
+09-29 02:15:16.431 I/AndroidRuntime( 4793): Leaving lock profiling enabled
+09-29 02:15:16.732 D/AndroidRuntime( 4793): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:15:18.226 D/AndroidRuntime( 4793): Shutting down VM
+09-29 02:15:20.391 D/AndroidRuntime( 4903): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:15:20.398 I/AndroidRuntime( 4903): Using default boot image
+09-29 02:15:20.398 I/AndroidRuntime( 4903): Leaving lock profiling enabled
+09-29 02:15:20.578 D/AndroidRuntime( 4903): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:15:21.762 D/AndroidRuntime( 4903): Shutting down VM
+09-29 02:15:29.048 D/AndroidRuntime( 5080): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:15:29.060 I/AndroidRuntime( 5080): Using default boot image
+09-29 02:15:29.060 I/AndroidRuntime( 5080): Leaving lock profiling enabled
+09-29 02:15:29.413 D/AndroidRuntime( 5080): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:15:30.569 D/AndroidRuntime( 5080): Shutting down VM
+09-29 02:15:37.677 D/AndroidRuntime( 5377): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:15:37.693 I/AndroidRuntime( 5377): Using default boot image
+09-29 02:15:37.693 I/AndroidRuntime( 5377): Leaving lock profiling enabled
+09-29 02:15:37.971 D/AndroidRuntime( 5377): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:15:39.189 D/AndroidRuntime( 5377): Shutting down VM
+09-29 02:15:44.877 D/AndroidRuntime( 5569): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:15:44.885 I/AndroidRuntime( 5569): Using default boot image
+09-29 02:15:44.885 I/AndroidRuntime( 5569): Leaving lock profiling enabled
+09-29 02:15:45.127 D/AndroidRuntime( 5569): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:15:46.292 D/AndroidRuntime( 5569): Shutting down VM
+09-29 02:15:54.723 D/AndroidRuntime( 5993): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:15:54.732 I/AndroidRuntime( 5993): Using default boot image
+09-29 02:15:54.732 I/AndroidRuntime( 5993): Leaving lock profiling enabled
+09-29 02:15:54.936 D/AndroidRuntime( 5993): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:15:56.109 D/AndroidRuntime( 5993): Shutting down VM
+09-29 02:16:03.386 D/AndroidRuntime( 6177): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:16:03.395 I/AndroidRuntime( 6177): Using default boot image
+09-29 02:16:03.395 I/AndroidRuntime( 6177): Leaving lock profiling enabled
+09-29 02:16:03.646 D/AndroidRuntime( 6177): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:16:05.561 D/AndroidRuntime( 6177): Shutting down VM
+09-29 02:16:06.987 D/AndroidRuntime( 6224): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:16:06.994 I/AndroidRuntime( 6224): Using default boot image
+09-29 02:16:06.994 I/AndroidRuntime( 6224): Leaving lock profiling enabled
+09-29 02:16:07.182 D/AndroidRuntime( 6224): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:16:08.334 D/AndroidRuntime( 6224): Shutting down VM
+09-29 02:16:22.291 D/AndroidRuntime( 6373): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:16:22.298 I/AndroidRuntime( 6373): Using default boot image
+09-29 02:16:22.298 I/AndroidRuntime( 6373): Leaving lock profiling enabled
+09-29 02:16:22.483 D/AndroidRuntime( 6373): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:16:23.666 D/AndroidRuntime( 6373): Shutting down VM
+09-29 02:16:37.644 D/AndroidRuntime( 6445): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:16:37.649 I/AndroidRuntime( 6445): Using default boot image
+09-29 02:16:37.649 I/AndroidRuntime( 6445): Leaving lock profiling enabled
+09-29 02:16:37.806 D/AndroidRuntime( 6445): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:16:38.998 D/AndroidRuntime( 6445): Shutting down VM
+09-29 02:16:50.733 D/AndroidRuntime( 6539): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:16:50.738 I/AndroidRuntime( 6539): Using default boot image
+09-29 02:16:50.738 I/AndroidRuntime( 6539): Leaving lock profiling enabled
+09-29 02:16:50.889 D/AndroidRuntime( 6539): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:16:52.076 D/AndroidRuntime( 6539): Shutting down VM
+09-29 02:17:03.561 D/AndroidRuntime( 6600): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:17:03.566 I/AndroidRuntime( 6600): Using default boot image
+09-29 02:17:03.566 I/AndroidRuntime( 6600): Leaving lock profiling enabled
+09-29 02:17:03.719 D/AndroidRuntime( 6600): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:17:04.811 D/AndroidRuntime( 6600): Shutting down VM
+09-29 02:17:07.387 D/AndroidRuntime( 6638): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:17:07.392 I/AndroidRuntime( 6638): Using default boot image
+09-29 02:17:07.392 I/AndroidRuntime( 6638): Leaving lock profiling enabled
+09-29 02:17:07.546 D/AndroidRuntime( 6638): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:17:08.633 D/AndroidRuntime( 6638): Shutting down VM
+09-29 02:17:12.238 I/ExoPlayerImpl( 3518): Init fc1187 [AndroidXMedia3/1.8.0] [emu64xa, sdk_gphone64_x86_64, Google, 34]
+09-29 02:17:13.040 I/NuvioPlayerDiag( 3518): prepare begin attempt=1 source=scheme=https,host=manifest.googlevideo.com,port=-1,loopback=false audioSource=false mime=application/x-mpegURL startPositionMs=0
+09-29 02:17:13.070 D/NuvioPlayer( 3518): onPlaybackStateChanged: BUFFERING
+09-29 02:17:13.070 I/NuvioPlayerDiag( 3518): state=BUFFERING attempt=1 elapsedMs=38 positionMs=0 bufferedMs=0 durationMs=0 playWhenReady=true terminalError=none
+09-29 02:17:14.959 D/NuvioPlayer( 3518): onTracksChanged: 8 groups total
+09-29 02:17:14.959 D/NuvioPlayer( 3518): --- logCurrentTracks (onTracksChanged) ---
+09-29 02:17:14.959 D/NuvioPlayer( 3518):   textDisabled=true
+09-29 02:17:14.959 D/NuvioPlayer( 3518):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 02:17:14.959 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 02:17:14.959 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 02:17:14.959 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 02:17:14.960 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 02:17:14.960 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 02:17:14.960 D/NuvioPlayer( 3518): --- end logCurrentTracks ---
+09-29 02:17:15.113 D/AndroidRuntime( 6724): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:17:15.120 I/AndroidRuntime( 6724): Using default boot image
+09-29 02:17:15.120 I/AndroidRuntime( 6724): Leaving lock profiling enabled
+09-29 02:17:15.267 D/AndroidRuntime( 6724): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:17:16.296 D/AndroidRuntime( 6724): Shutting down VM
+09-29 02:17:16.463 I/DMCodecAdapterFactory( 3518): Creating an asynchronous MediaCodec adapter for track type audio
+09-29 02:17:16.467 D/CCodec  ( 3518): allocate(c2.android.aac.decoder)
+09-29 02:17:16.470 I/CCodec  ( 3518): setting up 'default' as default (vendor) store
+09-29 02:17:16.480 I/CCodec  ( 3518): Created component [c2.android.aac.decoder]
+09-29 02:17:16.481 D/CCodecConfig( 3518): read media type: audio/mp4a-latm
+09-29 02:17:16.510 I/CCodecConfig( 3518): query failed after returning 20 values (BAD_INDEX)
+09-29 02:17:16.511 D/CCodecConfig( 3518): c2 config diff is Dict {
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 coded.aac-packaging.value = 0
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 coded.bitrate.value = 64000
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 coded.pl.level = 0
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 coded.pl.profile = 8192
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::i32 coding.drc.album-mode.value = 0
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::float coding.drc.attenuation-factor.value = 1
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::float coding.drc.boost-factor.value = 1
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::i32 coding.drc.compression-mode.value = 3
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::i32 coding.drc.effect-type.value = 3
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::float coding.drc.encoded-level.value = 0.25
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::float coding.drc.reference-level.value = -16
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 input.buffers.max-size.value = 8192
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 input.delay.value = 0
+09-29 02:17:16.511 D/CCodecConfig( 3518):   string input.media-type.value = "audio/mp4a-latm"
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 output.delay.value = 2
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::float output.drc.output-loudness.value = 0.25
+09-29 02:17:16.511 D/CCodecConfig( 3518):   string output.media-type.value = "audio/raw"
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 raw.channel-count.value = 1
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 raw.channel-mask.value = 0
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 raw.max-channel-count.value = 8
+09-29 02:17:16.511 D/CCodecConfig( 3518):   c2::u32 raw.sample-rate.value = 44100
+09-29 02:17:16.511 D/CCodecConfig( 3518): }
+09-29 02:17:16.522 I/MediaCodec( 3518): MediaCodec will operate in async mode
+09-29 02:17:16.523 D/MediaCodec( 3518): flushMediametrics
+09-29 02:17:16.523 D/CCodec  ( 3518): [c2.android.aac.decoder] buffers are bound to CCodec for this session
+09-29 02:17:16.523 D/CCodecConfig( 3518): no c2 equivalents for log-session-id
+09-29 02:17:16.523 D/CCodecConfig( 3518): no c2 equivalents for flags
+09-29 02:17:16.524 D/CCodecConfig( 3518): c2 config diff is   c2::u32 raw.channel-count.value = 2
+09-29 02:17:16.524 D/CCodecConfig( 3518):   c2::u32 raw.sample-rate.value = 22050
+09-29 02:17:16.525 D/CCodec  ( 3518): encoding statistics level = 0
+09-29 02:17:16.525 D/CCodec  ( 3518): setup formats input: AMessage(what = 0x00000000) = {
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-album-mode = 0
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-boost-level = 127
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-cut-level = 127
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-effect-type = 3
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-encoded-target-level = -1
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-max-output-channel_count = 8
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-target-ref-level = 64
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t bitrate = 64000
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t channel-count = 2
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t channel-mask = 0
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t level = 0
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t max-input-size = 8192
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t max-output-channel-count = 8
+09-29 02:17:16.525 D/CCodec  ( 3518):   string mime = "audio/mp4a-latm"
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t profile = 2
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t sample-rate = 22050
+09-29 02:17:16.525 D/CCodec  ( 3518): }
+09-29 02:17:16.525 D/CCodec  ( 3518): setup formats output: AMessage(what = 0x00000000) = {
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-album-mode = 0
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-boost-level = 127
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-cut-level = 127
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-effect-type = 3
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-drc-output-loudness = -1
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-encoded-target-level = -1
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-max-output-channel_count = 8
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t aac-target-ref-level = 64
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t channel-count = 2
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t channel-mask = 0
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t max-output-channel-count = 8
+09-29 02:17:16.525 D/CCodec  ( 3518):   string mime = "audio/raw"
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t sample-rate = 22050
+09-29 02:17:16.525 D/CCodec  ( 3518):   int32_t android._config-pcm-encoding = 2
+09-29 02:17:16.525 D/CCodec  ( 3518): }
+09-29 02:17:16.525 I/CCodecConfig( 3518): query failed after returning 20 values (BAD_INDEX)
+09-29 02:17:16.525 D/MediaCodec( 3518): keep callback message for reclaim
+09-29 02:17:16.537 D/CCodecBufferChannel( 3518): [c2.android.aac.decoder#308] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+09-29 02:17:16.539 I/CCodecBufferChannel( 3518): [c2.android.aac.decoder#308] Created output block pool with allocatorID 16 => poolID 26 - OK
+09-29 02:17:16.539 D/CCodecBufferChannel( 3518): [c2.android.aac.decoder#308] Configured output block pool ids 26 => OK
+09-29 02:17:16.545 I/DMCodecAdapterFactory( 3518): Creating an asynchronous MediaCodec adapter for track type video
+09-29 02:17:16.548 D/CCodec  ( 3518): allocate(c2.goldfish.vp9.decoder)
+09-29 02:17:16.548 I/CCodec  ( 3518): setting up 'default' as default (vendor) store
+09-29 02:17:16.551 I/CCodec  ( 3518): Created component [c2.goldfish.vp9.decoder]
+09-29 02:17:16.551 D/CCodecConfig( 3518): read media type: video/x-vnd.on2.vp9
+09-29 02:17:16.553 D/CCodecConfig( 3518): ignoring local param raw.size (0xd2001800) as it is already supported
+09-29 02:17:16.553 D/CCodecConfig( 3518): ignoring local param default.color (0x5200180b) as it is already supported
+09-29 02:17:16.554 I/CCodecConfig( 3518): query failed after returning 11 values (BAD_INDEX)
+09-29 02:17:16.554 D/CCodecConfig( 3518): c2 config diff is Dict {
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 coded.pl.level = 28680
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 coded.pl.profile = 28672
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 default.color.matrix = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 default.color.primaries = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 default.color.range = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 default.color.transfer = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 input.buffers.max-size.value = 6291456
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 input.delay.value = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   Buffer input.hdr10-plus-info.value = {
+09-29 02:17:16.554 D/CCodecConfig( 3518):   }
+09-29 02:17:16.554 D/CCodecConfig( 3518):   string input.media-type.value = "video/x-vnd.on2.vp9"
+09-29 02:17:16.554 D/CCodecConfig( 3518):   Buffer output.hdr10-plus-info.value = {
+09-29 02:17:16.554 D/CCodecConfig( 3518):   }
+09-29 02:17:16.554 D/CCodecConfig( 3518):   string output.media-type.value = "video/raw"
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.max-size.height = 240
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.max-size.width = 320
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.pixel-format.value = 35
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::i32 raw.rotation.flip = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::i32 raw.rotation.value = 0
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.sar.height = 1
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.sar.width = 1
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.size.height = 240
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.size.width = 320
+09-29 02:17:16.554 D/CCodecConfig( 3518):   c2::u32 raw.surface-scaling.value = 1
+09-29 02:17:16.554 D/CCodecConfig( 3518): }
+09-29 02:17:16.555 I/MediaCodec( 3518): MediaCodec will operate in async mode
+09-29 02:17:16.556 D/MediaCodec( 3518): flushMediametrics
+09-29 02:17:16.556 I/MediaCodec( 3518): [c2.goldfish.vp9.decoder] setting surface generation to 3602433
+09-29 02:17:16.557 I/CCodecBufferChannel( 3518): Using latch times for frame rendered signals - present fences not supported
+09-29 02:17:16.557 D/CCodec  ( 3518): [c2.goldfish.vp9.decoder] buffers are bound to CCodec for this session
+09-29 02:17:16.558 D/CCodecConfig( 3518): no c2 equivalents for log-session-id
+09-29 02:17:16.558 D/CCodecConfig( 3518): no c2 equivalents for color-standard
+09-29 02:17:16.558 D/CCodecConfig( 3518): no c2 equivalents for native-window
+09-29 02:17:16.558 D/CCodecConfig( 3518): no c2 equivalents for flags
+09-29 02:17:16.558 D/CCodecConfig( 3518): config failed => CORRUPTED
+09-29 02:17:16.558 D/CCodecConfig( 3518): c2 config diff is   c2::u32 default.color.matrix = 1
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 default.color.primaries = 1
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 default.color.range = 2
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 default.color.transfer = 3
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 raw.max-size.height = 1080
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 raw.max-size.width = 1920
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 raw.size.height = 720
+09-29 02:17:16.558 D/CCodecConfig( 3518):   c2::u32 raw.size.width = 1280
+09-29 02:17:16.559 D/CCodec  ( 3518): client requested max input size 777600, which is smaller than what component recommended (6291456); overriding with component recommendation.
+09-29 02:17:16.559 W/CCodec  ( 3518): This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+09-29 02:17:16.559 D/CCodec  ( 3518): encoding statistics level = 0
+09-29 02:17:16.559 D/CCodec  ( 3518): setup formats input: AMessage(what = 0x00000000) = {
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t height = 720
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t level = 256
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t max-input-size = 6291456
+09-29 02:17:16.559 D/CCodec  ( 3518):   string mime = "video/x-vnd.on2.vp9"
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t profile = 1
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t width = 1280
+09-29 02:17:16.559 D/CCodec  ( 3518):   Rect crop(0, 0, 1279, 719)
+09-29 02:17:16.559 D/CCodec  ( 3518): }
+09-29 02:17:16.559 D/CCodec  ( 3518): setup formats output: AMessage(what = 0x00000000) = {
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t android._color-format = 2135033992
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t android._video-scaling = 1
+09-29 02:17:16.559 D/CCodec  ( 3518):   Rect crop(0, 0, 1279, 719)
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t color-standard = 1
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t color-range = 2
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t color-transfer = 3
+09-29 02:17:16.559 D/CCodec  ( 3518):   Buffer hdr10-plus-info = {
+09-29 02:17:16.559 D/CCodec  ( 3518):   }
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t height = 720
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t max-height = 1080
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t max-width = 1920
+09-29 02:17:16.559 D/CCodec  ( 3518):   string mime = "video/raw"
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t rotation-degrees = 0
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t sar-height = 1
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t sar-width = 1
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t width = 1280
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t android._dataspace = 260
+09-29 02:17:16.559 D/CCodec  ( 3518):   int32_t color-format = 2130708361
+09-29 02:17:16.559 D/CCodec  ( 3518): }
+09-29 02:17:16.559 I/CCodecConfig( 3518): query failed after returning 11 values (BAD_INDEX)
+09-29 02:17:16.559 D/MediaCodec( 3518): keep callback message for reclaim
+09-29 02:17:16.560 D/CCodecBufferChannel( 3518): [c2.goldfish.vp9.decoder#897] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+09-29 02:17:16.561 D/CCodecBufferChannel( 3518): [c2.goldfish.vp9.decoder#897] Query output surface allocator returned 0 params => BAD_INDEX (6)
+09-29 02:17:16.561 I/CCodecBufferChannel( 3518): [c2.goldfish.vp9.decoder#897] Created output block pool with allocatorID 18 => poolID 17 - OK
+09-29 02:17:16.561 D/CCodecBufferChannel( 3518): [c2.goldfish.vp9.decoder#897] Configured output block pool ids 17 => OK
+09-29 02:17:16.634 D/CCodecConfig( 3518): c2 config diff is   c2::u32 raw.channel-mask.value = 12
+09-29 02:17:16.634 D/CCodecConfig( 3518):   c2::u32 raw.sample-rate.value = 44100
+09-29 02:17:16.635 D/CCodecBuffers( 3518): [c2.android.aac.decoder#308:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-drc-album-mode = 0
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-drc-boost-level = 127
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-drc-cut-level = 127
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-drc-effect-type = 3
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-drc-output-loudness = -1
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-encoded-target-level = -1
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-max-output-channel_count = 8
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t aac-target-ref-level = 64
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t channel-count = 2
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t channel-mask = 12
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t max-output-channel-count = 8
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   string mime = "audio/raw"
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t sample-rate = 44100
+09-29 02:17:16.635 D/CCodecBuffers( 3518):   int32_t android._config-pcm-encoding = 2
+09-29 02:17:16.635 D/CCodecBuffers( 3518): }
+09-29 02:17:16.726 D/CCodecConfig( 3518): c2 config diff is   c2::u32 raw.crop.height = 720
+09-29 02:17:16.726 D/CCodecConfig( 3518):   c2::u32 raw.crop.left = 0
+09-29 02:17:16.726 D/CCodecConfig( 3518):   c2::u32 raw.crop.top = 0
+09-29 02:17:16.726 D/CCodecConfig( 3518):   c2::u32 raw.crop.width = 1280
+09-29 02:17:16.833 I/NuvioPlayerDiag( 3518): firstFrame attempt=1 elapsedMs=3798 positionMs=0
+09-29 02:17:16.835 D/NuvioPlayer( 3518): onPlaybackStateChanged: READY
+09-29 02:17:16.835 I/NuvioPlayerDiag( 3518): state=READY attempt=1 elapsedMs=3803 positionMs=0 bufferedMs=5240 durationMs=213040 playWhenReady=true terminalError=none
+09-29 02:17:16.835 D/NuvioPlayer( 3518): --- logCurrentTracks (STATE_READY) ---
+09-29 02:17:16.835 D/NuvioPlayer( 3518):   textDisabled=true
+09-29 02:17:16.835 D/NuvioPlayer( 3518):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 02:17:16.835 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 02:17:16.835 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 02:17:16.835 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 02:17:16.836 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 02:17:16.836 D/NuvioPlayer( 3518):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 02:17:16.836 D/NuvioPlayer( 3518): --- end logCurrentTracks ---
+09-29 02:17:16.995 D/NuvioPlayer( 3518): getSubtitleTracks: found 5 tracks
+09-29 02:17:16.995 D/NuvioPlayer( 3518):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 02:17:16.995 D/NuvioPlayer( 3518):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 02:17:16.995 D/NuvioPlayer( 3518):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 02:17:17.044 D/NuvioPlayer( 3518):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 02:17:17.051 D/NuvioPlayer( 3518):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 02:17:17.159 I/NuvioPlayerDiag( 3518): isPlaying=true attempt=1 elapsedMs=4127 positionMs=332
+09-29 02:17:17.310 D/NuvioPlayer( 3518): getSubtitleTracks: found 5 tracks
+09-29 02:17:17.310 D/NuvioPlayer( 3518):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 02:17:17.310 D/NuvioPlayer( 3518):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 02:17:17.310 D/NuvioPlayer( 3518):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 02:17:17.310 D/NuvioPlayer( 3518):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 02:17:17.310 D/NuvioPlayer( 3518):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 02:17:18.242 D/NuvioPlayer( 3518): getSubtitleTracks: found 5 tracks
+09-29 02:17:18.243 D/NuvioPlayer( 3518):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 02:17:18.243 D/NuvioPlayer( 3518):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 02:17:18.243 D/NuvioPlayer( 3518):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 02:17:18.243 D/NuvioPlayer( 3518):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 02:17:18.243 D/NuvioPlayer( 3518):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 02:17:20.306 I/.nuviodebug.com( 3518): Compiler allocated 4737KB to compile void com.nuvio.app.features.player.PlayerEngine_androidKt.ExoPlayerSurface(java.lang.String, java.lang.String, java.util.Map, java.util.Map, java.util.List, java.lang.String, boolean, androidx.compose.ui.Modifier, boolean, java.lang.Long, java.lang.String, com.nuvio.app.features.player.PlayerResizeMode, boolean, kotlin.jvm.functions.Function2, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, androidx.compose.runtime.Composer, int, int)
+09-29 02:17:23.729 D/AndroidRuntime( 6772): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:17:23.793 I/AndroidRuntime( 6772): Using default boot image
+09-29 02:17:23.793 I/AndroidRuntime( 6772): Leaving lock profiling enabled
+09-29 02:17:24.330 D/AndroidRuntime( 6772): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:17:25.614 D/AndroidRuntime( 6772): Shutting down VM
+09-29 02:17:34.600 D/CCodecConfig( 3518): c2 config diff is   c2::u32 raw.crop.height = 1080
+09-29 02:17:34.600 D/CCodecConfig( 3518):   c2::u32 raw.crop.width = 1920
+09-29 02:17:34.600 D/CCodecConfig( 3518):   c2::u32 raw.size.height = 1080
+09-29 02:17:34.600 D/CCodecConfig( 3518):   c2::u32 raw.size.width = 1920
+09-29 02:17:34.601 D/CCodecBuffers( 3518): [c2.goldfish.vp9.decoder#897:2D-Output] popFromStashAndRegister: at 1000017360000us, output format changed to AMessage(what = 0x00000000) = {
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t android._color-format = 2135033992
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t android._video-scaling = 1
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   Rect crop(0, 0, 1919, 1079)
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t color-standard = 1
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t color-range = 2
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t color-transfer = 3
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   Buffer hdr10-plus-info = {
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   }
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t height = 1080
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t max-height = 1080
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t max-width = 1920
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   string mime = "video/raw"
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t rotation-degrees = 0
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t sar-height = 1
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t sar-width = 1
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t width = 1920
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t android._dataspace = 260
+09-29 02:17:34.601 D/CCodecBuffers( 3518):   int32_t color-format = 2130708361
+09-29 02:17:34.601 D/CCodecBuffers( 3518): }
+09-29 02:17:39.757 D/AndroidRuntime( 6807): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:17:39.823 I/AndroidRuntime( 6807): Using default boot image
+09-29 02:17:39.823 I/AndroidRuntime( 6807): Leaving lock profiling enabled
+09-29 02:17:40.127 D/AndroidRuntime( 6807): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:17:41.626 D/AndroidRuntime( 6807): Shutting down VM
+09-29 02:17:56.847 D/AndroidRuntime( 6848): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:17:56.889 I/AndroidRuntime( 6848): Using default boot image
+09-29 02:17:56.912 I/AndroidRuntime( 6848): Leaving lock profiling enabled
+09-29 02:17:57.347 D/AndroidRuntime( 6848): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:17:58.642 D/AndroidRuntime( 6848): Shutting down VM
+09-29 02:18:13.488 D/AndroidRuntime( 6873): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:18:13.497 I/AndroidRuntime( 6873): Using default boot image
+09-29 02:18:13.497 I/AndroidRuntime( 6873): Leaving lock profiling enabled
+09-29 02:18:13.912 D/AndroidRuntime( 6873): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:18:15.283 D/AndroidRuntime( 6873): Shutting down VM
+09-29 02:18:35.530 D/AndroidRuntime( 6912): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:18:35.558 I/AndroidRuntime( 6912): Using default boot image
+09-29 02:18:35.604 I/AndroidRuntime( 6912): Leaving lock profiling enabled
+09-29 02:18:35.937 D/AndroidRuntime( 6912): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:18:37.147 D/AndroidRuntime( 6912): Shutting down VM
+09-29 02:18:45.403 D/AndroidRuntime( 6948): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:18:45.430 I/AndroidRuntime( 6948): Using default boot image
+09-29 02:18:45.430 I/AndroidRuntime( 6948): Leaving lock profiling enabled
+09-29 02:18:45.863 D/AndroidRuntime( 6948): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:18:47.024 D/AndroidRuntime( 6948): Shutting down VM
+09-29 02:18:55.702 D/AndroidRuntime( 6979): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:18:55.711 I/AndroidRuntime( 6979): Using default boot image
+09-29 02:18:55.711 I/AndroidRuntime( 6979): Leaving lock profiling enabled
+09-29 02:18:56.057 D/AndroidRuntime( 6979): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:18:57.352 D/AndroidRuntime( 6979): Shutting down VM
+09-29 02:19:25.936 D/AndroidRuntime( 7044): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:19:25.954 I/AndroidRuntime( 7044): Using default boot image
+09-29 02:19:25.954 I/AndroidRuntime( 7044): Leaving lock profiling enabled
+09-29 02:19:26.459 D/AndroidRuntime( 7044): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:19:27.842 D/AndroidRuntime( 7044): Shutting down VM

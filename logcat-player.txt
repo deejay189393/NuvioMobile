@@ -1,0 +1,141 @@
+09-29 09:19:51.672 I/ExoPlayerImpl( 5749): Init aa5d12 [AndroidXMedia3/1.8.0] [emu64xa, sdk_gphone64_x86_64, Google, 34]
+09-29 09:19:51.926 I/NuvioPlayerDiag( 5749): prepare begin attempt=1 source=scheme=https,host=test-streams.mux.dev,port=-1,loopback=false audioSource=false mime=application/x-mpegURL startPositionMs=0
+09-29 09:19:51.943 D/NuvioPlayer( 5749): onPlaybackStateChanged: BUFFERING
+09-29 09:19:51.943 I/NuvioPlayerDiag( 5749): state=BUFFERING attempt=1 elapsedMs=18 positionMs=0 bufferedMs=0 durationMs=0 playWhenReady=true terminalError=none
+09-29 09:19:52.456 D/NuvioPlayer( 5749): onTracksChanged: 3 groups total
+09-29 09:19:52.456 D/NuvioPlayer( 5749): --- logCurrentTracks (onTracksChanged) ---
+09-29 09:19:52.456 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:19:52.456 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:19:52.456 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:19:52.624 I/DMCodecAdapterFactory( 5749): Creating an asynchronous MediaCodec adapter for track type video
+09-29 09:19:52.739 I/MediaCodec( 5749): MediaCodec will operate in async mode
+09-29 09:19:52.746 D/MediaCodec( 5749): flushMediametrics
+09-29 09:19:52.746 I/MediaCodec( 5749): [c2.goldfish.h264.decoder] setting surface generation to 5886977
+09-29 09:19:52.825 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:19:52.892 I/DMCodecAdapterFactory( 5749): Creating an asynchronous MediaCodec adapter for track type audio
+09-29 09:19:52.957 I/MediaCodec( 5749): MediaCodec will operate in async mode
+09-29 09:19:52.957 D/MediaCodec( 5749): flushMediametrics
+09-29 09:19:52.959 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:19:53.156 I/NuvioPlayerDiag( 5749): firstFrame attempt=1 elapsedMs=1230 positionMs=0
+09-29 09:19:53.157 D/NuvioPlayer( 5749): onPlaybackStateChanged: READY
+09-29 09:19:53.157 I/NuvioPlayerDiag( 5749): state=READY attempt=1 elapsedMs=1232 positionMs=0 bufferedMs=10966 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:19:53.157 D/NuvioPlayer( 5749): --- logCurrentTracks (STATE_READY) ---
+09-29 09:19:53.157 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:19:53.158 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:19:53.158 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:19:53.162 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:19:53.254 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=1328 positionMs=0
+09-29 09:19:53.257 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:19:53.482 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:19:55.750 I/.nuviodebug.com( 5749): Compiler allocated 4737KB to compile void com.nuvio.app.features.player.PlayerEngine_androidKt.ExoPlayerSurface(java.lang.String, java.lang.String, java.util.Map, java.util.Map, java.util.List, java.lang.String, boolean, androidx.compose.ui.Modifier, boolean, java.lang.Long, java.lang.String, com.nuvio.app.features.player.PlayerResizeMode, boolean, kotlin.jvm.functions.Function2, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, androidx.compose.runtime.Composer, int, int)
+09-29 09:20:03.686 D/CCodecBufferChannel( 5749): [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+09-29 09:20:03.686 D/CCodecBufferChannel( 5749): [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+09-29 09:20:03.686 D/CCodecBufferChannel( 5749): [c2.android.aac.decoder#564] MediaCodec discarded an unknown buffer
+09-29 09:20:03.691 I/DMCodecAdapterFactory( 5749): Creating an asynchronous MediaCodec adapter for track type audio
+09-29 09:20:03.761 D/MediaCodec( 5749): MediaCodec::reclaim(0x760083b933b0) c2.android.aac.decoder
+09-29 09:20:03.803 D/MediaCodec( 5749): flushMediametrics
+09-29 09:20:03.803 D/MediaCodec( 5749): MediaCodec looper is gone, skip reclaim
+09-29 09:20:03.803 D/MediaCodec( 5749): flushMediametrics
+09-29 09:20:03.803 W/MediaCodec( 5749): no metrics handle found
+09-29 09:20:03.873 I/MediaCodec( 5749): MediaCodec will operate in async mode
+09-29 09:20:03.873 D/MediaCodec( 5749): flushMediametrics
+09-29 09:20:03.874 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:05.351 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=13425 positionMs=11316
+09-29 09:20:06.936 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=15010 positionMs=11326
+09-29 09:20:15.702 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:15.713 D/NuvioPlayer( 5749): onPlaybackStateChanged: BUFFERING
+09-29 09:20:15.713 I/NuvioPlayerDiag( 5749): state=BUFFERING attempt=1 elapsedMs=23787 positionMs=28761 bufferedMs=70015 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:20:15.718 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:15.724 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=23799 positionMs=28761
+09-29 09:20:17.282 I/NuvioPlayerDiag( 5749): firstFrame attempt=1 elapsedMs=25357 positionMs=28761
+09-29 09:20:17.344 D/NuvioPlayer( 5749): onPlaybackStateChanged: READY
+09-29 09:20:17.344 I/NuvioPlayerDiag( 5749): state=READY attempt=1 elapsedMs=25419 positionMs=28761 bufferedMs=79950 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:20:17.344 D/NuvioPlayer( 5749): --- logCurrentTracks (STATE_READY) ---
+09-29 09:20:17.344 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:20:17.344 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:20:17.344 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:20:17.440 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=25515 positionMs=28855
+09-29 09:20:17.494 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:20:22.819 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=30893 positionMs=34215
+09-29 09:20:24.408 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=32482 positionMs=34256
+09-29 09:20:27.317 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=35391 positionMs=37176
+09-29 09:20:28.932 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=37006 positionMs=37214
+09-29 09:20:31.538 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:37.781 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:37.783 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:37.788 D/NuvioPlayer( 5749): onPlaybackStateChanged: BUFFERING
+09-29 09:20:37.788 I/NuvioPlayerDiag( 5749): state=BUFFERING attempt=1 elapsedMs=45862 positionMs=24949 bufferedMs=24949 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:20:37.804 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=45878 positionMs=24949
+09-29 09:20:40.821 I/NuvioPlayerDiag( 5749): firstFrame attempt=1 elapsedMs=48895 positionMs=24949
+09-29 09:20:40.857 D/NuvioPlayer( 5749): onPlaybackStateChanged: READY
+09-29 09:20:40.857 I/NuvioPlayerDiag( 5749): state=READY attempt=1 elapsedMs=48931 positionMs=24949 bufferedMs=42183 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:20:40.857 D/NuvioPlayer( 5749): --- logCurrentTracks (STATE_READY) ---
+09-29 09:20:40.857 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:20:40.857 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:20:40.857 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:20:40.948 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=49023 positionMs=25021
+09-29 09:20:41.151 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:20:45.404 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=53478 positionMs=29520
+09-29 09:20:46.978 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=55052 positionMs=29521
+09-29 09:20:53.859 D/MediaCodecList( 6814): codecHandlesFormat: no format, so no extra checks
+09-29 09:20:53.956 D/MediaCodec( 6814): shapeMediaFormat: deltas(1): AMessage(what = 0x00000000) = {
+09-29 09:20:53.956 D/MediaCodec( 6814):     int32_t android._encoding-quality-level = 0
+09-29 09:20:53.956 D/MediaCodec( 6814):   }
+09-29 09:20:53.956 D/MediaCodec( 6814): flushMediametrics
+09-29 09:20:55.442 D/NuvioPlayer( 5749): onPlaybackStateChanged: BUFFERING
+09-29 09:20:55.442 I/NuvioPlayerDiag( 5749): state=BUFFERING attempt=1 elapsedMs=63517 positionMs=47807 bufferedMs=90016 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:20:55.446 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=63520 positionMs=47807
+09-29 09:20:55.494 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:20:55.522 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:00.310 D/MediaCodec( 6814): flushMediametrics
+09-29 09:21:02.163 I/NuvioPlayerDiag( 5749): firstFrame attempt=1 elapsedMs=70237 positionMs=47807
+09-29 09:21:02.172 D/NuvioPlayer( 5749): onPlaybackStateChanged: READY
+09-29 09:21:02.172 I/NuvioPlayerDiag( 5749): state=READY attempt=1 elapsedMs=70247 positionMs=47820 bufferedMs=100016 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:21:02.173 D/NuvioPlayer( 5749): --- logCurrentTracks (STATE_READY) ---
+09-29 09:21:02.173 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:21:02.173 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:21:02.173 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:21:02.216 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=70290 positionMs=47820
+09-29 09:21:02.229 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:21:05.677 D/MediaCodecList( 6890): codecHandlesFormat: no format, so no extra checks
+09-29 09:21:05.683 D/MediaCodec( 6890): shapeMediaFormat: deltas(1): AMessage(what = 0x00000000) = {
+09-29 09:21:05.683 D/MediaCodec( 6890):     int32_t android._encoding-quality-level = 0
+09-29 09:21:05.683 D/MediaCodec( 6890):   }
+09-29 09:21:05.684 D/MediaCodec( 6890): flushMediametrics
+09-29 09:21:10.952 D/MediaCodec( 6890): flushMediametrics
+09-29 09:21:14.608 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:16.462 D/MediaCodecList( 7033): codecHandlesFormat: no format, so no extra checks
+09-29 09:21:16.509 D/MediaCodec( 7033): shapeMediaFormat: deltas(1): AMessage(what = 0x00000000) = {
+09-29 09:21:16.509 D/MediaCodec( 7033):     int32_t android._encoding-quality-level = 0
+09-29 09:21:16.509 D/MediaCodec( 7033):   }
+09-29 09:21:16.509 D/MediaCodec( 7033): flushMediametrics
+09-29 09:21:21.383 D/NuvioPlayer( 5749): onPlaybackStateChanged: BUFFERING
+09-29 09:21:21.383 I/NuvioPlayerDiag( 5749): state=BUFFERING attempt=1 elapsedMs=89457 positionMs=77901 bufferedMs=120016 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:21:21.431 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=89506 positionMs=77901
+09-29 09:21:21.434 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:21.436 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:21.602 I/NuvioPlayerDiag( 5749): firstFrame attempt=1 elapsedMs=89676 positionMs=77901
+09-29 09:21:21.612 D/NuvioPlayer( 5749): onPlaybackStateChanged: READY
+09-29 09:21:21.613 I/NuvioPlayerDiag( 5749): state=READY attempt=1 elapsedMs=89687 positionMs=77913 bufferedMs=120433 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:21:21.613 D/NuvioPlayer( 5749): --- logCurrentTracks (STATE_READY) ---
+09-29 09:21:21.613 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:21:21.613 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:21:21.613 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:21:21.700 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=89775 positionMs=77913
+09-29 09:21:21.720 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks
+09-29 09:21:23.876 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:25.656 D/NuvioPlayer( 5749): onPlaybackStateChanged: BUFFERING
+09-29 09:21:25.661 I/NuvioPlayerDiag( 5749): state=BUFFERING attempt=1 elapsedMs=93735 positionMs=68768 bufferedMs=68768 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:21:25.666 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:25.669 D/MediaCodec( 5749): keep callback message for reclaim
+09-29 09:21:25.717 I/NuvioPlayerDiag( 5749): isPlaying=false attempt=1 elapsedMs=93791 positionMs=68768
+09-29 09:21:27.748 D/MediaCodec( 7033): flushMediametrics
+09-29 09:21:31.189 I/NuvioPlayerDiag( 5749): firstFrame attempt=1 elapsedMs=99264 positionMs=68768
+09-29 09:21:31.205 D/NuvioPlayer( 5749): onPlaybackStateChanged: READY
+09-29 09:21:31.205 I/NuvioPlayerDiag( 5749): state=READY attempt=1 elapsedMs=99279 positionMs=68787 bufferedMs=120016 durationMs=634584 playWhenReady=true terminalError=none
+09-29 09:21:31.205 D/NuvioPlayer( 5749): --- logCurrentTracks (STATE_READY) ---
+09-29 09:21:31.205 D/NuvioPlayer( 5749):   textDisabled=true
+09-29 09:21:31.205 D/NuvioPlayer( 5749):   group type=AUDIO id=0 lang=null label=null selected=true supported=true
+09-29 09:21:31.205 D/NuvioPlayer( 5749): --- end logCurrentTracks ---
+09-29 09:21:31.217 I/NuvioPlayerDiag( 5749): isPlaying=true attempt=1 elapsedMs=99291 positionMs=68787
+09-29 09:21:31.265 D/NuvioPlayer( 5749): getSubtitleTracks: found 0 tracks

@@ -64,9 +64,20 @@ def shot(name):
     with open(base + ".png", "wb") as f:
         f.write(adb("exec-out", "screencap", "-p").stdout)
     xml = dump()
+    ns = nodes(xml)
+    for _ in range(3):
+        if not any("isn't responding" in t for t in visible_text(ns)):
+            break
+        wait = find(ns, "Wait")
+        if not wait:
+            break
+        tap(wait)
+        log("dismissed a system 'not responding' dialog")
+        time.sleep(3)
+        xml = dump()
+        ns = nodes(xml)
     with open(base + ".xml", "w") as f:
         f.write(xml)
-    ns = nodes(xml)
     log(f"shot {counter[0]:02d}-{name}: {visible_text(ns)[:60]}")
     return ns
 
@@ -186,12 +197,15 @@ def main():
     open_url(META)
     time.sleep(12)
     ns = shot("details")
-    for attempt in range(4):
+    for attempt in range(5):
         if tap_first(ns, ["Play", "Watch", "Watch now", "Streams", "Sources"]):
             break
-        adb("shell", "input", "swipe", "540", "1500", "540", "700", "400")
-        time.sleep(3)
-        ns = shot(f"details-scroll-{attempt}")
+        if tap_first(ns, ["View Details"]):
+            time.sleep(10)
+        else:
+            adb("shell", "input", "swipe", "540", "1500", "540", "700", "400")
+            time.sleep(3)
+        ns = shot(f"details-{attempt}")
     time.sleep(10)
     ns = shot("streams")
     stream = find(ns, r"ytId only, no url", exact=False) or find(ns, "YouTube")

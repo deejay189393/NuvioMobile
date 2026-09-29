@@ -218,24 +218,6 @@ def wait_for_playback(limit=120):
     return False
 
 
-def pause_and_resume(label):
-    """Pauses and resumes through the media session. Returns the (time, kind, position) events the
-    player logged for both, so positions come from the player itself."""
-    before = device_now()
-    adb("shell", "input", "keyevent", "KEYCODE_MEDIA_PAUSE")
-    time.sleep(1.5)
-    adb("shell", "input", "keyevent", "KEYCODE_MEDIA_PLAY")
-    time.sleep(2.5)
-    events = [e for e in diag_events() if e[0] >= before]
-    paused = next((e for e in events if e[1] == "isPlaying=false"), None)
-    resumed = next((e for e in events if paused and e[0] > paused[0] and e[1] == "isPlaying=true"), None)
-    if paused is None or resumed is None:
-        log(f"position {label}: pause/resume not logged ({events[:6]})")
-        return None, None
-    log(f"position {label}: paused at {paused[2]:.1f}s, resumed at {resumed[2]:.1f}s")
-    return paused, resumed
-
-
 def swipe_async(x1, y1, x2, y2, duration_ms):
     return subprocess.Popen(
         ["adb", "shell", "input", "swipe", str(x1), str(y1), str(x2), str(y2), str(duration_ms)],
@@ -243,16 +225,13 @@ def swipe_async(x1, y1, x2, y2, duration_ms):
     )
 
 
-def horizontal_seek(label, from_fx, to_fx, expected_offset_s):
-    """Swipes across the middle of the player over 6 s, screenshots twice while the finger is
-    still down and once after it lifts, then checks where playback landed."""
+def horizontal_seek(label, from_fx, to_fx):
+    """Swipes across the middle of the playing video over 6 s and screenshots twice while the
+    finger is still down and once after it lifts."""
     w, h = screen_dims()
     y = h // 2
     x1, x2 = int(w * from_fx), int(w * to_fx)
-    _, resumed = pause_and_resume(f"before {label}")
-    if resumed is None:
-        return
-    down = device_now()
+    time.sleep(3)
     swipe = swipe_async(x1, y, x2, y, 6000)
     log(f"swipe {label}: {x1},{y} -> {x2},{y} over 6 s (screen {w}x{h})")
     time.sleep(2.2)
@@ -260,31 +239,36 @@ def horizontal_seek(label, from_fx, to_fx, expected_offset_s):
     time.sleep(1.6)
     screenshot_only(f"{label}-finger-down-late")
     swipe.wait(timeout=30)
-    released = device_now()
     screenshot_only(f"{label}-released")
-    time.sleep(1.5)
-    landed, _ = pause_and_resume(f"after {label}")
-    # `input swipe` keeps the finger down for exactly its duration, so touch-down was 6 s before
-    # the release (the process can start late on a busy emulator, so the launch time is no guide).
-    # The seek is measured from the position at touch-down; playback keeps running meanwhile.
-    at_down = resumed[2] + (released - 6.0 - resumed[0])
-    target = at_down + expected_offset_s
-    if landed is not None:
-        where, when = landed[2], landed[0]
-    else:
-        # No pause logged (e.g. it came while the player was still buffering after the seek):
-        # use the first state change after the release instead.
-        after = next((e for e in diag_events() if e[0] >= released - 0.5 and e[1] in ("BUFFERING", "READY")), None)
-        if after is None:
-            log(f"RESULT seek {label}: no position logged after the release -> UNKNOWN")
-            return
-        where, when = after[2], after[0]
-    with_seek = target + max(0.0, when - released)
-    no_seek = at_down + (when - (released - 6.0))
-    ok = abs(where - with_seek) <= 3.0 and abs(where - no_seek) > 3.0
-    log(f"RESULT seek {label}: touch-down near {at_down:.1f}s, target {target:.1f}s, found {where:.1f}s "
-        f"{when - released:.1f}s after release (expected about {with_seek:.1f}s with the seek, "
-        f"{no_seek:.1f}s without) -> {'OK' if ok else 'FAIL'}")
+
+
+def graded_seek(label, from_fx, to_fx, expected_offset_s):
+    """Checks where a swipe seeks to. Playback is paused first, so the position at touch-down is
+    exactly the paused position; after the finger lifts, the player logs where it seeked to."""
+    w, h = screen_dims()
+    y = h // 2
+    time.sleep(3)
+    before = device_now()
+    adb("shell", "input", "keyevent", "KEYCODE_MEDIA_PAUSE")
+    time.sleep(2.5)
+    paused = next((e for e in diag_events() if e[0] >= before and e[1] == "isPlaying=false"), None)
+    if paused is None:
+        log(f"RESULT seek {label}: pause not logged -> UNKNOWN")
+        adb("shell", "input", "keyevent", "KEYCODE_MEDIA_PLAY")
+        return
+    start = device_now()
+    swipe_async(int(w * from_fx), y, int(w * to_fx), y, 1500).wait(timeout=30)
+    time.sleep(4)
+    moved = next((e for e in diag_events() if e[0] >= start and e[1] in ("firstFrame", "BUFFERING", "READY")), None)
+    adb("shell", "input", "keyevent", "KEYCODE_MEDIA_PLAY")
+    time.sleep(2)
+    expected = paused[2] + expected_offset_s
+    if moved is None:
+        log(f"RESULT seek {label}: paused at {paused[2]:.1f}s, no seek logged after the swipe -> FAIL")
+        return
+    ok = abs(moved[2] - expected) <= 1.0
+    log(f"RESULT seek {label}: paused at {paused[2]:.1f}s, seeked to {moved[2]:.1f}s ({moved[1]}), "
+        f"expected {expected:.1f}s -> {'OK' if ok else 'FAIL'}")
 
 
 def record(name, seconds, action):
@@ -420,8 +404,11 @@ def main():
     time.sleep(8)
     screenshot_only("playing")
 
-    horizontal_seek("swipe-right", 0.40, 0.65, 15)
-    horizontal_seek("swipe-left", 0.65, 0.40, -15)
+    horizontal_seek("swipe-right", 0.40, 0.65)
+    horizontal_seek("swipe-left", 0.65, 0.40)
+    # A quarter of the width is 15 s on titles under 30 minutes.
+    graded_seek("forward", 0.40, 0.65, 15)
+    graded_seek("backward", 0.65, 0.40, -15)
     double_tap_forward()
     brightness_swipe()
     recorded_swipe()

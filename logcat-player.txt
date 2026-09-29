@@ -1,0 +1,510 @@
+09-29 03:14:32.647 D/AndroidRuntime( 5106): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:14:32.671 I/AndroidRuntime( 5106): Using default boot image
+09-29 03:14:32.671 I/AndroidRuntime( 5106): Leaving lock profiling enabled
+09-29 03:14:32.953 D/AndroidRuntime( 5106): Calling main entry com.android.commands.monkey.Monkey
+09-29 03:14:33.190 I/AndroidRuntime( 5106): VM exiting with result code 0.
+09-29 03:14:53.791 D/AndroidRuntime( 5791): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:14:53.795 I/AndroidRuntime( 5791): Using default boot image
+09-29 03:14:53.795 I/AndroidRuntime( 5791): Leaving lock profiling enabled
+09-29 03:14:53.905 D/AndroidRuntime( 5791): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:14:55.121 D/AndroidRuntime( 5791): Shutting down VM
+09-29 03:14:56.923 D/AndroidRuntime( 5869): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:14:56.932 I/AndroidRuntime( 5869): Using default boot image
+09-29 03:14:56.932 I/AndroidRuntime( 5869): Leaving lock profiling enabled
+09-29 03:14:57.128 D/AndroidRuntime( 5869): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:14:58.268 D/AndroidRuntime( 5869): Shutting down VM
+09-29 03:15:05.717 D/AndroidRuntime( 5981): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:05.728 I/AndroidRuntime( 5981): Using default boot image
+09-29 03:15:05.728 I/AndroidRuntime( 5981): Leaving lock profiling enabled
+09-29 03:15:05.896 D/AndroidRuntime( 5981): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:06.993 D/AndroidRuntime( 5981): Shutting down VM
+09-29 03:15:12.994 D/AndroidRuntime( 6046): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:13.003 I/AndroidRuntime( 6046): Using default boot image
+09-29 03:15:13.003 I/AndroidRuntime( 6046): Leaving lock profiling enabled
+09-29 03:15:13.146 D/AndroidRuntime( 6046): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:14.200 D/AndroidRuntime( 6046): Shutting down VM
+09-29 03:15:19.408 D/AndroidRuntime( 6094): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:19.412 I/AndroidRuntime( 6094): Using default boot image
+09-29 03:15:19.412 I/AndroidRuntime( 6094): Leaving lock profiling enabled
+09-29 03:15:19.496 D/AndroidRuntime( 6094): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:20.564 D/AndroidRuntime( 6094): Shutting down VM
+09-29 03:15:27.130 D/AndroidRuntime( 6179): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:27.134 I/AndroidRuntime( 6179): Using default boot image
+09-29 03:15:27.134 I/AndroidRuntime( 6179): Leaving lock profiling enabled
+09-29 03:15:27.221 D/AndroidRuntime( 6179): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:28.288 D/AndroidRuntime( 6179): Shutting down VM
+09-29 03:15:34.910 D/AndroidRuntime( 6222): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:34.914 I/AndroidRuntime( 6222): Using default boot image
+09-29 03:15:34.914 I/AndroidRuntime( 6222): Leaving lock profiling enabled
+09-29 03:15:34.998 D/AndroidRuntime( 6222): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:36.200 D/AndroidRuntime( 6222): Shutting down VM
+09-29 03:15:37.384 D/AndroidRuntime( 6247): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:37.387 I/AndroidRuntime( 6247): Using default boot image
+09-29 03:15:37.387 I/AndroidRuntime( 6247): Leaving lock profiling enabled
+09-29 03:15:37.472 D/AndroidRuntime( 6247): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:38.526 D/AndroidRuntime( 6247): Shutting down VM
+09-29 03:15:52.025 D/AndroidRuntime( 6359): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:15:52.031 I/AndroidRuntime( 6359): Using default boot image
+09-29 03:15:52.031 I/AndroidRuntime( 6359): Leaving lock profiling enabled
+09-29 03:15:52.116 D/AndroidRuntime( 6359): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:15:53.267 D/AndroidRuntime( 6359): Shutting down VM
+09-29 03:16:07.137 D/AndroidRuntime( 6447): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:16:07.141 I/AndroidRuntime( 6447): Using default boot image
+09-29 03:16:07.141 I/AndroidRuntime( 6447): Leaving lock profiling enabled
+09-29 03:16:07.220 D/AndroidRuntime( 6447): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:16:08.359 D/AndroidRuntime( 6447): Shutting down VM
+09-29 03:16:19.974 D/AndroidRuntime( 6482): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:16:19.979 I/AndroidRuntime( 6482): Using default boot image
+09-29 03:16:19.979 I/AndroidRuntime( 6482): Leaving lock profiling enabled
+09-29 03:16:20.081 D/AndroidRuntime( 6482): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:16:21.152 D/AndroidRuntime( 6482): Shutting down VM
+09-29 03:16:32.362 D/AndroidRuntime( 6520): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:16:32.366 I/AndroidRuntime( 6520): Using default boot image
+09-29 03:16:32.366 I/AndroidRuntime( 6520): Leaving lock profiling enabled
+09-29 03:16:32.449 D/AndroidRuntime( 6520): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:16:33.521 D/AndroidRuntime( 6520): Shutting down VM
+09-29 03:16:35.984 D/AndroidRuntime( 6560): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:16:35.988 I/AndroidRuntime( 6560): Using default boot image
+09-29 03:16:35.988 I/AndroidRuntime( 6560): Leaving lock profiling enabled
+09-29 03:16:36.071 D/AndroidRuntime( 6560): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:16:37.113 D/AndroidRuntime( 6560): Shutting down VM
+09-29 03:16:40.648 I/ExoPlayerImpl( 5137): Init dde35de [AndroidXMedia3/1.8.0] [emu64xa, sdk_gphone64_x86_64, Google, 34]
+09-29 03:16:40.858 I/NuvioPlayerDiag( 5137): prepare begin attempt=1 source=scheme=https,host=manifest.googlevideo.com,port=-1,loopback=false audioSource=false mime=application/x-mpegURL startPositionMs=0
+09-29 03:16:40.864 D/NuvioPlayer( 5137): onPlaybackStateChanged: BUFFERING
+09-29 03:16:40.865 I/NuvioPlayerDiag( 5137): state=BUFFERING attempt=1 elapsedMs=7 positionMs=0 bufferedMs=0 durationMs=0 playWhenReady=true terminalError=none
+09-29 03:16:42.278 D/AndroidRuntime( 6629): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:16:42.282 I/AndroidRuntime( 6629): Using default boot image
+09-29 03:16:42.282 I/AndroidRuntime( 6629): Leaving lock profiling enabled
+09-29 03:16:42.374 D/AndroidRuntime( 6629): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:16:42.553 D/NuvioPlayer( 5137): onTracksChanged: 8 groups total
+09-29 03:16:42.553 D/NuvioPlayer( 5137): --- logCurrentTracks (onTracksChanged) ---
+09-29 03:16:42.553 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:16:42.553 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:16:42.553 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:16:42.553 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:16:42.553 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:16:42.554 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:16:42.554 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:16:42.554 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:16:42.876 I/DMCodecAdapterFactory( 5137): Creating an asynchronous MediaCodec adapter for track type video
+09-29 03:16:42.882 D/CCodec  ( 5137): allocate(c2.goldfish.vp9.decoder)
+09-29 03:16:42.895 I/CCodec  ( 5137): setting up 'default' as default (vendor) store
+09-29 03:16:42.918 I/CCodec  ( 5137): Created component [c2.goldfish.vp9.decoder]
+09-29 03:16:42.918 D/CCodecConfig( 5137): read media type: video/x-vnd.on2.vp9
+09-29 03:16:42.926 D/CCodecConfig( 5137): ignoring local param raw.size (0xd2001800) as it is already supported
+09-29 03:16:42.926 D/CCodecConfig( 5137): ignoring local param default.color (0x5200180b) as it is already supported
+09-29 03:16:42.930 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:16:42.930 D/CCodecConfig( 5137): c2 config diff is Dict {
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 coded.pl.level = 28680
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 coded.pl.profile = 28672
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 default.color.matrix = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 default.color.primaries = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 default.color.range = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 default.color.transfer = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 input.buffers.max-size.value = 6291456
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 input.delay.value = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   Buffer input.hdr10-plus-info.value = {
+09-29 03:16:42.930 D/CCodecConfig( 5137):   }
+09-29 03:16:42.930 D/CCodecConfig( 5137):   string input.media-type.value = "video/x-vnd.on2.vp9"
+09-29 03:16:42.930 D/CCodecConfig( 5137):   Buffer output.hdr10-plus-info.value = {
+09-29 03:16:42.930 D/CCodecConfig( 5137):   }
+09-29 03:16:42.930 D/CCodecConfig( 5137):   string output.media-type.value = "video/raw"
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.max-size.height = 240
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.max-size.width = 320
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.pixel-format.value = 35
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::i32 raw.rotation.flip = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::i32 raw.rotation.value = 0
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.sar.height = 1
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.sar.width = 1
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.size.height = 240
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.size.width = 320
+09-29 03:16:42.930 D/CCodecConfig( 5137):   c2::u32 raw.surface-scaling.value = 1
+09-29 03:16:42.930 D/CCodecConfig( 5137): }
+09-29 03:16:42.937 I/MediaCodec( 5137): MediaCodec will operate in async mode
+09-29 03:16:42.938 D/MediaCodec( 5137): flushMediametrics
+09-29 03:16:42.938 I/MediaCodec( 5137): [c2.goldfish.vp9.decoder] setting surface generation to 5260289
+09-29 03:16:42.939 I/CCodecBufferChannel( 5137): Using latch times for frame rendered signals - present fences not supported
+09-29 03:16:42.939 D/CCodec  ( 5137): [c2.goldfish.vp9.decoder] buffers are bound to CCodec for this session
+09-29 03:16:42.939 D/CCodecConfig( 5137): no c2 equivalents for log-session-id
+09-29 03:16:42.939 D/CCodecConfig( 5137): no c2 equivalents for color-standard
+09-29 03:16:42.939 D/CCodecConfig( 5137): no c2 equivalents for native-window
+09-29 03:16:42.939 D/CCodecConfig( 5137): no c2 equivalents for flags
+09-29 03:16:42.940 D/CCodecConfig( 5137): config failed => CORRUPTED
+09-29 03:16:42.940 D/CCodecConfig( 5137): c2 config diff is   c2::u32 default.color.matrix = 1
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 default.color.primaries = 1
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 default.color.range = 2
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 default.color.transfer = 3
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 raw.max-size.height = 1080
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 raw.max-size.width = 1920
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 raw.size.height = 720
+09-29 03:16:42.940 D/CCodecConfig( 5137):   c2::u32 raw.size.width = 1280
+09-29 03:16:42.940 D/CCodec  ( 5137): client requested max input size 777600, which is smaller than what component recommended (6291456); overriding with component recommendation.
+09-29 03:16:42.940 W/CCodec  ( 5137): This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+09-29 03:16:42.940 D/CCodec  ( 5137): encoding statistics level = 0
+09-29 03:16:42.940 D/CCodec  ( 5137): setup formats input: AMessage(what = 0x00000000) = {
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t height = 720
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t level = 256
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t max-input-size = 6291456
+09-29 03:16:42.940 D/CCodec  ( 5137):   string mime = "video/x-vnd.on2.vp9"
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t profile = 1
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t width = 1280
+09-29 03:16:42.940 D/CCodec  ( 5137):   Rect crop(0, 0, 1279, 719)
+09-29 03:16:42.940 D/CCodec  ( 5137): }
+09-29 03:16:42.940 D/CCodec  ( 5137): setup formats output: AMessage(what = 0x00000000) = {
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t android._color-format = 2135033992
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t android._video-scaling = 1
+09-29 03:16:42.940 D/CCodec  ( 5137):   Rect crop(0, 0, 1279, 719)
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t color-standard = 1
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t color-range = 2
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t color-transfer = 3
+09-29 03:16:42.940 D/CCodec  ( 5137):   Buffer hdr10-plus-info = {
+09-29 03:16:42.940 D/CCodec  ( 5137):   }
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t height = 720
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t max-height = 1080
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t max-width = 1920
+09-29 03:16:42.940 D/CCodec  ( 5137):   string mime = "video/raw"
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t rotation-degrees = 0
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t sar-height = 1
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t sar-width = 1
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t width = 1280
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t android._dataspace = 260
+09-29 03:16:42.940 D/CCodec  ( 5137):   int32_t color-format = 2130708361
+09-29 03:16:42.940 D/CCodec  ( 5137): }
+09-29 03:16:42.940 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:16:42.941 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:16:42.944 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+09-29 03:16:42.944 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Query output surface allocator returned 0 params => BAD_INDEX (6)
+09-29 03:16:42.945 I/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Created output block pool with allocatorID 18 => poolID 17 - OK
+09-29 03:16:42.945 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Configured output block pool ids 17 => OK
+09-29 03:16:43.061 I/DMCodecAdapterFactory( 5137): Creating an asynchronous MediaCodec adapter for track type audio
+09-29 03:16:43.063 D/CCodecConfig( 5137): c2 config diff is   c2::u32 raw.crop.height = 720
+09-29 03:16:43.063 D/CCodecConfig( 5137):   c2::u32 raw.crop.left = 0
+09-29 03:16:43.063 D/CCodecConfig( 5137):   c2::u32 raw.crop.top = 0
+09-29 03:16:43.063 D/CCodecConfig( 5137):   c2::u32 raw.crop.width = 1280
+09-29 03:16:43.064 D/CCodec  ( 5137): allocate(c2.android.aac.decoder)
+09-29 03:16:43.065 I/CCodec  ( 5137): setting up 'default' as default (vendor) store
+09-29 03:16:43.099 I/CCodec  ( 5137): Created component [c2.android.aac.decoder]
+09-29 03:16:43.099 D/CCodecConfig( 5137): read media type: audio/mp4a-latm
+09-29 03:16:43.102 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:16:43.102 D/CCodecConfig( 5137): c2 config diff is Dict {
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 coded.aac-packaging.value = 0
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 coded.bitrate.value = 64000
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 coded.pl.level = 0
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 coded.pl.profile = 8192
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::i32 coding.drc.album-mode.value = 0
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::float coding.drc.attenuation-factor.value = 1
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::float coding.drc.boost-factor.value = 1
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::i32 coding.drc.compression-mode.value = 3
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::i32 coding.drc.effect-type.value = 3
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::float coding.drc.encoded-level.value = 0.25
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::float coding.drc.reference-level.value = -16
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 input.buffers.max-size.value = 8192
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 input.delay.value = 0
+09-29 03:16:43.102 D/CCodecConfig( 5137):   string input.media-type.value = "audio/mp4a-latm"
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 output.delay.value = 2
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::float output.drc.output-loudness.value = 0.25
+09-29 03:16:43.102 D/CCodecConfig( 5137):   string output.media-type.value = "audio/raw"
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 raw.channel-count.value = 1
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 raw.channel-mask.value = 0
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 raw.max-channel-count.value = 8
+09-29 03:16:43.102 D/CCodecConfig( 5137):   c2::u32 raw.sample-rate.value = 44100
+09-29 03:16:43.102 D/CCodecConfig( 5137): }
+09-29 03:16:43.150 I/MediaCodec( 5137): MediaCodec will operate in async mode
+09-29 03:16:43.153 D/MediaCodec( 5137): flushMediametrics
+09-29 03:16:43.153 D/CCodec  ( 5137): [c2.android.aac.decoder] buffers are bound to CCodec for this session
+09-29 03:16:43.153 D/CCodecConfig( 5137): no c2 equivalents for log-session-id
+09-29 03:16:43.153 D/CCodecConfig( 5137): no c2 equivalents for flags
+09-29 03:16:43.154 D/CCodecConfig( 5137): c2 config diff is   c2::u32 raw.channel-count.value = 2
+09-29 03:16:43.154 D/CCodecConfig( 5137):   c2::u32 raw.sample-rate.value = 22050
+09-29 03:16:43.154 D/CCodec  ( 5137): encoding statistics level = 0
+09-29 03:16:43.154 D/CCodec  ( 5137): setup formats input: AMessage(what = 0x00000000) = {
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-album-mode = 0
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-boost-level = 127
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-cut-level = 127
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-effect-type = 3
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-encoded-target-level = -1
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-max-output-channel_count = 8
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-target-ref-level = 64
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t bitrate = 64000
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t channel-count = 2
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t channel-mask = 0
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t level = 0
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t max-input-size = 8192
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t max-output-channel-count = 8
+09-29 03:16:43.154 D/CCodec  ( 5137):   string mime = "audio/mp4a-latm"
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t profile = 2
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t sample-rate = 22050
+09-29 03:16:43.154 D/CCodec  ( 5137): }
+09-29 03:16:43.154 D/CCodec  ( 5137): setup formats output: AMessage(what = 0x00000000) = {
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-album-mode = 0
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-boost-level = 127
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-cut-level = 127
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-effect-type = 3
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-drc-output-loudness = -1
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-encoded-target-level = -1
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-max-output-channel_count = 8
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t aac-target-ref-level = 64
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t channel-count = 2
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t channel-mask = 0
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t max-output-channel-count = 8
+09-29 03:16:43.154 D/CCodec  ( 5137):   string mime = "audio/raw"
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t sample-rate = 22050
+09-29 03:16:43.154 D/CCodec  ( 5137):   int32_t android._config-pcm-encoding = 2
+09-29 03:16:43.154 D/CCodec  ( 5137): }
+09-29 03:16:43.154 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:16:43.154 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:16:43.160 D/CCodecBufferChannel( 5137): [c2.android.aac.decoder#652] Created input block pool with allocatorID 16 => poolID 18 - OK (0)
+09-29 03:16:43.161 I/CCodecBufferChannel( 5137): [c2.android.aac.decoder#652] Created output block pool with allocatorID 16 => poolID 27 - OK
+09-29 03:16:43.161 D/CCodecBufferChannel( 5137): [c2.android.aac.decoder#652] Configured output block pool ids 27 => OK
+09-29 03:16:43.216 I/NuvioPlayerDiag( 5137): firstFrame attempt=1 elapsedMs=2358 positionMs=0
+09-29 03:16:43.218 D/NuvioPlayer( 5137): onPlaybackStateChanged: READY
+09-29 03:16:43.218 I/NuvioPlayerDiag( 5137): state=READY attempt=1 elapsedMs=2361 positionMs=0 bufferedMs=5720 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:16:43.218 D/NuvioPlayer( 5137): --- logCurrentTracks (STATE_READY) ---
+09-29 03:16:43.218 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:16:43.243 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:16:43.246 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:16:43.246 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:16:43.246 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:16:43.246 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:16:43.246 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:16:43.246 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:16:43.323 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:16:43.323 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:16:43.323 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:16:43.323 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:16:43.323 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:16:43.324 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:16:43.326 D/CCodecConfig( 5137): c2 config diff is   c2::u32 raw.channel-mask.value = 12
+09-29 03:16:43.326 D/CCodecConfig( 5137):   c2::u32 raw.sample-rate.value = 44100
+09-29 03:16:43.326 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:Output[N]] popFromStashAndRegister: at 1000000000000us, output format changed to AMessage(what = 0x00000000) = {
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-drc-album-mode = 0
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-drc-boost-level = 127
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-drc-cut-level = 127
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-drc-effect-type = 3
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-drc-output-loudness = -1
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-encoded-target-level = -1
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-max-output-channel_count = 8
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t aac-target-ref-level = 64
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t channel-count = 2
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t channel-mask = 12
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t max-output-channel-count = 8
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   string mime = "audio/raw"
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t sample-rate = 44100
+09-29 03:16:43.326 D/CCodecBuffers( 5137):   int32_t android._config-pcm-encoding = 2
+09-29 03:16:43.326 D/CCodecBuffers( 5137): }
+09-29 03:16:43.365 I/NuvioPlayerDiag( 5137): isPlaying=true attempt=1 elapsedMs=2508 positionMs=0
+09-29 03:16:43.376 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:16:43.376 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:16:43.376 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:16:43.376 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:16:43.376 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:16:43.376 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:16:43.844 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:16:43.844 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:16:43.844 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:16:43.844 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:16:43.844 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:16:43.844 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:16:44.936 D/AndroidRuntime( 6629): Shutting down VM
+09-29 03:16:46.392 I/.nuviodebug.com( 5137): Compiler allocated 4737KB to compile void com.nuvio.app.features.player.PlayerEngine_androidKt.ExoPlayerSurface(java.lang.String, java.lang.String, java.util.Map, java.util.Map, java.util.List, java.lang.String, boolean, androidx.compose.ui.Modifier, boolean, java.lang.Long, java.lang.String, com.nuvio.app.features.player.PlayerResizeMode, boolean, kotlin.jvm.functions.Function2, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, kotlin.jvm.functions.Function1, androidx.compose.runtime.Composer, int, int)
+09-29 03:16:52.703 D/AndroidRuntime( 6686): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:16:52.751 I/AndroidRuntime( 6686): Using default boot image
+09-29 03:16:52.763 I/AndroidRuntime( 6686): Leaving lock profiling enabled
+09-29 03:16:53.022 D/AndroidRuntime( 6686): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:16:54.001 D/CCodecConfig( 5137): c2 config diff is   c2::u32 raw.crop.height = 1080
+09-29 03:16:54.001 D/CCodecConfig( 5137):   c2::u32 raw.crop.width = 1920
+09-29 03:16:54.001 D/CCodecConfig( 5137):   c2::u32 raw.size.height = 1080
+09-29 03:16:54.001 D/CCodecConfig( 5137):   c2::u32 raw.size.width = 1920
+09-29 03:16:54.001 D/CCodecBuffers( 5137): [c2.goldfish.vp9.decoder#654:2D-Output] popFromStashAndRegister: at 1000010400000us, output format changed to AMessage(what = 0x00000000) = {
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t android._color-format = 2135033992
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t android._video-scaling = 1
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   Rect crop(0, 0, 1919, 1079)
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t color-standard = 1
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t color-range = 2
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t color-transfer = 3
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   Buffer hdr10-plus-info = {
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   }
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t height = 1080
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t max-height = 1080
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t max-width = 1920
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   string mime = "video/raw"
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t rotation-degrees = 0
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t sar-height = 1
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t sar-width = 1
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t width = 1920
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t android._dataspace = 260
+09-29 03:16:54.001 D/CCodecBuffers( 5137):   int32_t color-format = 2130708361
+09-29 03:16:54.001 D/CCodecBuffers( 5137): }
+09-29 03:16:54.265 D/AndroidRuntime( 6686): Shutting down VM
+09-29 03:17:09.423 D/AndroidRuntime( 6709): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:17:09.456 I/AndroidRuntime( 6709): Using default boot image
+09-29 03:17:09.468 I/AndroidRuntime( 6709): Leaving lock profiling enabled
+09-29 03:17:09.885 D/AndroidRuntime( 6709): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:17:11.228 D/AndroidRuntime( 6709): Shutting down VM
+09-29 03:17:26.253 D/AndroidRuntime( 6739): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:17:26.259 I/AndroidRuntime( 6739): Using default boot image
+09-29 03:17:26.269 I/AndroidRuntime( 6739): Leaving lock profiling enabled
+09-29 03:17:26.644 D/AndroidRuntime( 6739): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:17:27.923 D/AndroidRuntime( 6739): Shutting down VM
+09-29 03:17:43.685 D/AndroidRuntime( 6776): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 03:17:43.747 I/AndroidRuntime( 6776): Using default boot image
+09-29 03:17:43.747 I/AndroidRuntime( 6776): Leaving lock profiling enabled
+09-29 03:17:44.254 D/AndroidRuntime( 6776): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 03:17:45.631 D/AndroidRuntime( 6776): Shutting down VM
+09-29 03:18:18.587 D/NuvioPlayer( 5137): onPlaybackStateChanged: BUFFERING
+09-29 03:18:18.587 I/NuvioPlayerDiag( 5137): state=BUFFERING attempt=1 elapsedMs=97729 positionMs=106520 bufferedMs=143679 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:18:18.592 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:18:18.593 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:18:18.594 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] flushed work; ignored.
+09-29 03:18:18.594 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Discard frames from previous generation.
+09-29 03:18:18.598 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:18:18.599 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:18:18.852 I/NuvioPlayerDiag( 5137): isPlaying=false attempt=1 elapsedMs=97994 positionMs=106520
+09-29 03:18:20.949 I/NuvioPlayerDiag( 5137): firstFrame attempt=1 elapsedMs=100091 positionMs=106520
+09-29 03:18:20.973 D/NuvioPlayer( 5137): onPlaybackStateChanged: READY
+09-29 03:18:20.974 I/NuvioPlayerDiag( 5137): state=READY attempt=1 elapsedMs=100116 positionMs=106520 bufferedMs=158880 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:18:20.974 D/NuvioPlayer( 5137): --- logCurrentTracks (STATE_READY) ---
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:18:20.974 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:18:20.983 I/NuvioPlayerDiag( 5137): isPlaying=true attempt=1 elapsedMs=100126 positionMs=106533
+09-29 03:18:21.526 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:18:21.526 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:18:21.526 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:18:21.528 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:18:21.528 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:18:21.528 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:18:34.271 D/NuvioPlayer( 5137): onPlaybackStateChanged: BUFFERING
+09-29 03:18:34.271 I/NuvioPlayerDiag( 5137): state=BUFFERING attempt=1 elapsedMs=113413 positionMs=129759 bufferedMs=172399 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:18:34.344 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:18:34.344 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:18:34.349 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Discard frames from previous generation.
+09-29 03:18:34.381 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] flushed work; ignored.
+09-29 03:18:34.381 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Discard frames from previous generation.
+09-29 03:18:34.400 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:18:34.407 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:18:34.409 I/NuvioPlayerDiag( 5137): isPlaying=false attempt=1 elapsedMs=113551 positionMs=129759
+09-29 03:18:35.264 I/NuvioPlayerDiag( 5137): firstFrame attempt=1 elapsedMs=114407 positionMs=129759
+09-29 03:18:35.301 D/NuvioPlayer( 5137): onPlaybackStateChanged: READY
+09-29 03:18:35.301 I/NuvioPlayerDiag( 5137): state=READY attempt=1 elapsedMs=114444 positionMs=129799 bufferedMs=183440 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:18:35.302 D/NuvioPlayer( 5137): --- logCurrentTracks (STATE_READY) ---
+09-29 03:18:35.302 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:18:35.302 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:18:35.302 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:18:35.303 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:18:35.303 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:18:35.303 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:18:35.303 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:18:35.303 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:18:35.368 I/NuvioPlayerDiag( 5137): isPlaying=true attempt=1 elapsedMs=114510 positionMs=129799
+09-29 03:18:35.746 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:18:35.746 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:18:35.746 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:18:35.746 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:18:35.746 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:18:35.746 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:18:51.476 D/NuvioPlayer( 5137): onPlaybackStateChanged: BUFFERING
+09-29 03:18:51.498 I/NuvioPlayerDiag( 5137): state=BUFFERING attempt=1 elapsedMs=130640 positionMs=135513 bufferedMs=135513 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:18:51.546 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:18:51.546 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:18:51.551 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+09-29 03:18:51.551 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+09-29 03:18:51.551 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 2
+09-29 03:18:51.551 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 3
+09-29 03:18:51.551 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 4
+09-29 03:18:51.552 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 5
+09-29 03:18:51.552 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:18:51.552 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:18:51.563 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] flushed work; ignored.
+09-29 03:18:51.563 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Discard frames from previous generation.
+09-29 03:18:51.701 I/NuvioPlayerDiag( 5137): isPlaying=false attempt=1 elapsedMs=130844 positionMs=135513
+09-29 03:18:52.023 I/NuvioPlayerDiag( 5137): firstFrame attempt=1 elapsedMs=131165 positionMs=135513
+09-29 03:18:52.026 D/NuvioPlayer( 5137): onPlaybackStateChanged: READY
+09-29 03:18:52.026 I/NuvioPlayerDiag( 5137): state=READY attempt=1 elapsedMs=131168 positionMs=135695 bufferedMs=197160 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:18:52.026 D/NuvioPlayer( 5137): --- logCurrentTracks (STATE_READY) ---
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:18:52.026 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:18:52.112 I/NuvioPlayerDiag( 5137): isPlaying=true attempt=1 elapsedMs=131255 positionMs=135783
+09-29 03:18:52.134 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:18:52.134 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:18:52.134 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:18:52.134 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:18:52.134 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:18:52.134 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:18:52.396 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:18:52.396 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:18:52.396 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:18:52.396 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:18:52.397 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:18:52.397 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:19:08.031 D/NuvioPlayer( 5137): onPlaybackStateChanged: BUFFERING
+09-29 03:19:08.032 I/NuvioPlayerDiag( 5137): state=BUFFERING attempt=1 elapsedMs=147175 positionMs=191192 bufferedMs=203599 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:19:08.047 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:19:08.047 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:19:08.052 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 0
+09-29 03:19:08.052 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 1
+09-29 03:19:08.052 D/CCodecBuffers( 5137): [c2.android.aac.decoder#652:1D-Output.Impl[N]] Client returned a buffer it does not own according to our record: 2
+09-29 03:19:08.052 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:19:08.053 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:19:08.123 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] flushed work; ignored.
+09-29 03:19:08.123 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Discard frames from previous generation.
+09-29 03:19:08.240 I/NuvioPlayerDiag( 5137): isPlaying=false attempt=1 elapsedMs=147359 positionMs=191192
+09-29 03:19:08.703 I/NuvioPlayerDiag( 5137): firstFrame attempt=1 elapsedMs=147845 positionMs=191192
+09-29 03:19:08.720 D/NuvioPlayer( 5137): onPlaybackStateChanged: READY
+09-29 03:19:08.720 I/NuvioPlayerDiag( 5137): state=READY attempt=1 elapsedMs=147863 positionMs=191193 bufferedMs=209560 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:19:08.720 D/NuvioPlayer( 5137): --- logCurrentTracks (STATE_READY) ---
+09-29 03:19:08.720 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:19:08.720 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:19:08.720 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:19:08.720 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:19:08.720 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:19:08.721 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:19:08.721 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:19:08.721 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:19:08.769 I/NuvioPlayerDiag( 5137): isPlaying=true attempt=1 elapsedMs=147912 positionMs=191193
+09-29 03:19:08.972 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:19:08.972 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:19:08.972 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:19:08.972 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:19:08.973 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:19:08.973 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false
+09-29 03:19:24.075 D/NuvioPlayer( 5137): onPlaybackStateChanged: BUFFERING
+09-29 03:19:24.076 I/NuvioPlayerDiag( 5137): state=BUFFERING attempt=1 elapsedMs=163218 positionMs=11093 bufferedMs=11093 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:19:24.211 I/NuvioPlayerDiag( 5137): isPlaying=false attempt=1 elapsedMs=163354 positionMs=11093
+09-29 03:19:24.217 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] MediaCodec discarded an unknown buffer
+09-29 03:19:24.217 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:19:24.218 I/CCodecConfig( 5137): query failed after returning 11 values (BAD_INDEX)
+09-29 03:19:24.223 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] flushed work; ignored.
+09-29 03:19:24.223 D/CCodecBufferChannel( 5137): [c2.goldfish.vp9.decoder#654] Discard frames from previous generation.
+09-29 03:19:24.224 D/MediaCodec( 5137): keep callback message for reclaim
+09-29 03:19:24.237 I/CCodecConfig( 5137): query failed after returning 20 values (BAD_INDEX)
+09-29 03:19:24.872 I/NuvioPlayerDiag( 5137): firstFrame attempt=1 elapsedMs=164014 positionMs=11093
+09-29 03:19:24.938 D/NuvioPlayer( 5137): onPlaybackStateChanged: READY
+09-29 03:19:24.939 I/NuvioPlayerDiag( 5137): state=READY attempt=1 elapsedMs=164081 positionMs=11096 bufferedMs=14757 durationMs=213040 playWhenReady=true terminalError=none
+09-29 03:19:24.939 D/NuvioPlayer( 5137): --- logCurrentTracks (STATE_READY) ---
+09-29 03:19:24.939 D/NuvioPlayer( 5137):   textDisabled=true
+09-29 03:19:24.939 D/NuvioPlayer( 5137):   group type=AUDIO id=233:Default lang=null label=Default selected=true supported=true
+09-29 03:19:24.939 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:English lang=en label=English selected=false supported=true
+09-29 03:19:24.946 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Deutsch (Deutschland) lang=de-de label=Deutsch (Deutschland) selected=false supported=true
+09-29 03:19:24.946 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:日本語 lang=ja label=日本語 selected=false supported=true
+09-29 03:19:24.946 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Português (Brasil) lang=pt-br label=Português (Brasil) selected=false supported=true
+09-29 03:19:24.946 D/NuvioPlayer( 5137):   group type=TEXT id=vtt:Español (Latinoamérica) lang=es-419 label=Español (Latinoamérica) selected=false supported=true
+09-29 03:19:24.946 D/NuvioPlayer( 5137): --- end logCurrentTracks ---
+09-29 03:19:25.063 I/NuvioPlayerDiag( 5137): isPlaying=true attempt=1 elapsedMs=164205 positionMs=11184
+09-29 03:19:25.601 D/NuvioPlayer( 5137): getSubtitleTracks: found 5 tracks
+09-29 03:19:25.603 D/NuvioPlayer( 5137):   track idx=0 id=vtt:English label='English (VTT)' lang=en selected=false
+09-29 03:19:25.603 D/NuvioPlayer( 5137):   track idx=1 id=vtt:Deutsch (Deutschland) label='German (Germany) (VTT) - Deutsch (Deutschland)' lang=de-de selected=false
+09-29 03:19:25.603 D/NuvioPlayer( 5137):   track idx=2 id=vtt:日本語 label='Japanese (VTT) - 日本語' lang=ja selected=false
+09-29 03:19:25.603 D/NuvioPlayer( 5137):   track idx=3 id=vtt:Português (Brasil) label='Portuguese (Brazil) (VTT) - Português (Brasil)' lang=pt-br selected=false
+09-29 03:19:25.603 D/NuvioPlayer( 5137):   track idx=4 id=vtt:Español (Latinoamérica) label='Spanish (Latin America) (VTT) - Español (Latinoamérica)' lang=es-419 selected=false

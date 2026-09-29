@@ -1,0 +1,72 @@
+[03:13:38] flavor=full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[03:13:47] Performing Streamed Install
+Success
+[03:13:47] letting the emulator settle
+[03:14:56] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[03:14:59] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[03:14:59] tap 'Continue Without Account' at 540,1877
+[03:15:08] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[03:15:08] tap 'Manage Profiles' at 540,816
+[03:15:15] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[03:15:15] add-profile candidates: [(343, 641, 737, 1053)]
+[03:15:15] tap '' at 540,847
+[03:15:21] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[03:15:21] tap 'Profile name' at 247,845
+[03:15:26] keyboard hidden
+[03:15:29] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[03:15:29] tap 'Create Profile' at 540,2018
+[03:15:37] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[03:15:39] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[03:15:39] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 232
+WaitTime: 276
+Complete 
+[03:15:54] shot 09-addon-installed: ['Overview', '2', 'Addons', '2', 'Active', '2', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'YouTube ID Test', 'Version 1.0.0', 'Move addon down', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'Streams that only carry a ytId', 'Movie • catalog, meta, stream • 1 id rules', 'YouTube ID Test', 'Version 1.0.0', 'Back', 'Addons']
+[03:15:54] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 158
+WaitTime: 177
+Complete 
+[03:16:09] shot 10-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[03:16:09] tap 'View Details' at 540,1154
+[03:16:22] shot 11-details-0: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Play', 'More actions', '1987', 'Test item. This addon\'s only stream for it is { "ytId": "dQw4w9WgXcQ" }.', 'Movie Details', 'Release Info', '1987', 'Back']
+[03:16:22] tap 'Play' at 489,1504
+[03:16:34] shot 12-streams: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'YouTube ID Test', 'YouTube ID Test', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'Back']
+[03:16:34] RESULT: ytId stream listed
+[03:16:34] tap 'Never Gonna Give You Up\nytId only, no url' at 257,755
+[03:16:38] shot 13-after-select-1s: ['Close player', 'Never Gonna Give You Up', 'Loading YouTube video']
+[03:16:46] shot 14-after-select-3s: []
+[03:16:55] shot 15-after-select-6s: []
+[03:17:12] shot 16-after-select-12s: []
+[03:17:29] shot 17-after-select-25s: []
+[03:17:46] shot 18-after-select-45s: []
+[03:18:07] screenshot 19-playing
+[03:18:17] tap screen to show controls at 1200,216 (screen 2400x1080)
+[03:18:19] tap bar-50pct at 1200,810 (screen 2400x1080)
+[03:18:23] screenshot 20-after-bar-50pct
+[03:18:28] RESULT seek bar-50pct: at 94.2s, jumped to 106.5s (expected 106.5s), playing again 2.4s later -> OK
+[03:18:33] tap screen to show controls at 1200,216 (screen 2400x1080)
+[03:18:34] tap forward-10s at 1560,528 (screen 2400x1080)
+[03:18:41] screenshot 21-after-forward-10s
+[03:18:45] RESULT seek forward-10s: at 119.4s, jumped to 129.8s (expected 129.4s), playing again 1.1s later -> OK
+[03:18:50] tap screen to show controls at 1200,216 (screen 2400x1080)
+[03:18:51] tap back-10s at 840,528 (screen 2400x1080)
+[03:18:57] screenshot 22-after-back-10s
+[03:19:02] RESULT seek back-10s: at 145.5s, jumped to 135.5s (expected 135.5s), playing again 0.6s later -> OK
+[03:19:07] tap screen to show controls at 1200,216 (screen 2400x1080)
+[03:19:08] tap bar-90pct at 1948,810 (screen 2400x1080)
+[03:19:13] screenshot 23-after-bar-90pct
+[03:19:18] RESULT seek bar-90pct: at 151.4s, jumped to 191.2s (expected 191.7s), playing again 0.7s later -> OK
+[03:19:23] tap screen to show controls at 1200,216 (screen 2400x1080)
+[03:19:24] tap bar-5pct-backwards at 357,810 (screen 2400x1080)
+[03:19:30] screenshot 24-after-bar-5pct-backwards
+[03:19:35] RESULT seek bar-5pct-backwards: at 206.3s, jumped to 11.1s (expected 10.7s), playing again 1.0s later -> OK
+[03:19:55] RESULT keeps playing for 20s after the last seek: OK
+[03:19:56] tap screen to show controls at 1200,216 (screen 2400x1080)
+[03:20:02] screenshot 25-final
+[03:20:03] done

@@ -1,0 +1,50 @@
+[03:13:37] flavor=playstore apk=androidApp/build/outputs/apk/playstore/debug/androidApp-playstore-debug.apk
+[03:13:46] Performing Streamed Install
+Success
+[03:13:46] letting the emulator settle
+[03:14:55] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally']
+[03:14:58] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally']
+[03:14:58] tap 'Continue Without Account' at 540,1877
+[03:15:07] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[03:15:07] tap 'Manage Profiles' at 540,816
+[03:15:14] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[03:15:14] add-profile candidates: [(343, 641, 737, 1053)]
+[03:15:14] tap '' at 540,847
+[03:15:20] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[03:15:21] tap 'Profile name' at 247,845
+[03:15:26] keyboard hidden
+[03:15:29] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[03:15:29] tap 'Create Profile' at 540,2018
+[03:15:37] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[03:15:39] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[03:15:39] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 286
+WaitTime: 296
+Complete 
+[03:15:54] shot 09-addon-installed: ['Overview', '1', 'Addons', '1', 'Active', '1', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'YouTube ID Test', 'Version 1.0.0', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'Streams that only carry a ytId', 'Movie • catalog, meta, stream • 1 id rules', 'Back', 'Addons']
+[03:15:54] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 167
+WaitTime: 187
+Complete 
+[03:16:09] shot 10-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[03:16:09] tap 'View Details' at 540,1154
+[03:16:22] shot 11-details-0: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Play', 'More actions', '1987', 'Test item. This addon\'s only stream for it is { "ytId": "dQw4w9WgXcQ" }.', 'Movie Details', 'Release Info', '1987', 'Back']
+[03:16:22] tap 'Play' at 489,1504
+[03:16:34] shot 12-streams: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'YouTube ID Test', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'Back']
+[03:16:34] RESULT: ytId stream listed
+[03:16:34] tap 'Never Gonna Give You Up\nytId only, no url' at 257,755
+[03:16:41] shot 13-after-select-1s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:16:46] shot 14-after-select-3s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:16:52] shot 15-after-select-6s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:17:04] shot 16-after-select-12s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:17:16] shot 17-after-select-25s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:17:29] shot 18-after-select-45s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:17:44] focus after select: ['mCurrentFocus=Window{a3b496f u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}']
+[03:17:46] shot 19-playstore-final: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[03:17:46] done

@@ -1,0 +1,61 @@
+[08:59:54] variant=fixed apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[09:00:05] Performing Streamed Install
+Success
+[09:00:05] letting the emulator settle
+[09:01:14] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[09:01:17] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[09:01:18] tap 'Continue Without Account' at 540,1877
+[09:01:26] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[09:01:26] tap 'Manage Profiles' at 540,816
+[09:01:33] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[09:01:33] add-profile candidates: [(343, 641, 737, 1053)]
+[09:01:33] tap '' at 540,847
+[09:01:39] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[09:01:39] tap 'Profile name' at 247,845
+[09:01:44] keyboard hidden
+[09:01:46] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[09:01:46] tap 'Create Profile' at 540,2018
+[09:01:54] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[09:01:56] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[09:01:57] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/seek-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 241
+WaitTime: 250
+Complete 
+[09:02:11] shot 09-addon-installed: ['Overview', '1', 'Addons', '1', 'Active', '1', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'Seek Test', 'Version 1.0.0', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'A long public test video for checking player seeking', 'Movie • catalog, meta, stream • 1 id rules', 'Back', 'Addons']
+[09:02:11] open nuvio://meta?type=movie&id=seektest-bbb: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 137
+WaitTime: 153
+Complete 
+[09:02:26] shot 10-details: ['Big Buck Bunny', 'Big Buck Bunny', 'Movie', '2008', 'View Details', 'Seek test - Movies', 'Big Buck Bunny', 'Big Buck Bunny', '2008', 'Home', 'Search', 'Library', 'Profile']
+[09:02:26] tap 'View Details' at 540,1154
+[09:02:39] shot 11-details-0: ['Big Buck Bunny', 'Big Buck Bunny', 'Play', 'More actions', '2008', 'Test item: a 10-minute public test video for checking player seeking.', 'Movie Details', 'Release Info', '2008', 'Back']
+[09:02:39] tap 'Play' at 489,1504
+[09:02:51] shot 12-streams-hls: ['Big Buck Bunny', 'Refresh streams', 'All', 'Seek Test', 'Seek Test', 'Seek Test', 'Big Buck Bunny\nHLS test stream', 'Seek Test', 'Big Buck Bunny\nMP4 test stream', 'Back']
+[09:02:51] tap 'Big Buck Bunny\nHLS test stream' at 188,755
+[09:02:54] RESULT: playing the HLS test stream
+[09:03:06] screenshot 13-playing
+[09:03:17] position before swipe-right: paused at 18.3s, resumed at 18.3s
+[09:03:17] swipe swipe-right: 960,540 -> 1560,540 over 6 s (screen 2400x1080)
+[09:03:21] screenshot 14-swipe-right-finger-down-early
+[09:03:25] screenshot 15-swipe-right-finger-down-late
+[09:03:27] screenshot 16-swipe-right-released
+[09:03:33] position after swipe-right: pause/resume not logged ([(1790672611.31, 'firstFrame', 35.762), (1790672611.313, 'READY', 35.762), (1790672611.352, 'isPlaying=true', 35.768)])
+[09:03:38] position before swipe-left: paused at 38.1s, resumed at 38.1s
+[09:03:38] swipe swipe-left: 1560,540 -> 960,540 over 6 s (screen 2400x1080)
+[09:03:45] screenshot 17-swipe-left-finger-down-early
+[09:03:49] screenshot 18-swipe-left-finger-down-late
+[09:03:52] screenshot 19-swipe-left-released
+[09:03:58] position after swipe-left: paused at 30.5s, resumed at 30.6s
+[09:03:58] RESULT seek swipe-left: touch-down near 41.2s, landed 30.5s (expected about 30.2s with a -15s seek, 56.6s without) -> OK
+[09:04:07] screenshot 20-double-tap-forward
+[09:04:10] screenshot 21-double-tap-forward-later
+[09:04:22] screenshot 22-brightness-finger-down
+[09:04:39] recorded swipe: 1170246 bytes
+[09:04:42] screenshot 23-final
+[09:04:42] done

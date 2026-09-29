@@ -1,0 +1,59 @@
+[02:47:57] flavor=full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[02:48:05] Performing Streamed Install
+Success
+[02:48:28] tap 'Wait' at 540,1359
+[02:48:28] dismissed a system 'not responding' dialog
+[02:48:34] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:48:36] tap 'Wait' at 540,1359
+[02:48:36] dismissed a system 'not responding' dialog
+[02:48:42] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:48:42] tap 'Continue Without Account' at 540,1877
+[02:48:49] tap 'Wait' at 540,1359
+[02:48:49] dismissed a system 'not responding' dialog
+[02:48:54] shot 03-profile-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:48:57] tap 'Wait' at 540,1359
+[02:48:57] dismissed a system 'not responding' dialog
+[02:49:02] shot 04-after-gate-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:49:02] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 272
+WaitTime: 277
+Complete 
+[02:49:17] tap 'Wait' at 540,1359
+[02:49:17] dismissed a system 'not responding' dialog
+[02:49:22] shot 05-addon-installed: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:49:22] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 246
+WaitTime: 258
+Complete 
+[02:49:37] tap 'Wait' at 540,1359
+[02:49:37] dismissed a system 'not responding' dialog
+[02:49:42] shot 06-details: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:49:48] tap 'Wait' at 540,1359
+[02:49:48] dismissed a system 'not responding' dialog
+[02:49:53] shot 07-details-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:49:59] tap 'Wait' at 540,1359
+[02:49:59] dismissed a system 'not responding' dialog
+[02:50:04] shot 08-details-1: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:50:10] tap 'Wait' at 540,1359
+[02:50:10] dismissed a system 'not responding' dialog
+[02:50:15] shot 09-details-2: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:50:21] tap 'Wait' at 540,1359
+[02:50:21] dismissed a system 'not responding' dialog
+[02:50:26] shot 10-details-3: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:50:32] tap 'Wait' at 540,1359
+[02:50:32] dismissed a system 'not responding' dialog
+[02:50:37] shot 11-details-4: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:50:49] tap 'Wait' at 540,1359
+[02:50:49] dismissed a system 'not responding' dialog
+[02:50:54] shot 12-streams: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:51:07] tap 'Wait' at 540,1359
+[02:51:07] dismissed a system 'not responding' dialog
+[02:51:12] shot 13-streams-retry: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:51:12] RESULT: ytId stream not listed
+[02:51:12] done

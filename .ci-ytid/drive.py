@@ -238,9 +238,14 @@ def main():
     seek_checks()
 
 
+DIMS = []
+
+
 def screen_dims():
-    png = adb("exec-out", "screencap", "-p").stdout
-    return int.from_bytes(png[16:20], "big"), int.from_bytes(png[20:24], "big")
+    if not DIMS:
+        png = adb("exec-out", "screencap", "-p").stdout
+        DIMS.extend([int.from_bytes(png[16:20], "big"), int.from_bytes(png[20:24], "big")])
+    return DIMS
 
 
 def ptap(fx, fy, label):
@@ -250,78 +255,74 @@ def ptap(fx, fy, label):
     log(f"tap {label} at {x},{y} (screen {w}x{h})")
 
 
-def media_position():
-    """Current position in seconds from the app's media session, or None."""
-    out = adb("shell", "dumpsys", "media_session").stdout.decode("utf-8", "replace")
-    m = re.search(r"state=PlaybackState \{state=(\w+), position=(-?\d+),.*?speed=([\d.]+), updated=(\d+)", out)
-    if not m:
-        log("media session: no playback state")
-        return None
-    state, pos, speed, updated = m.group(1), int(m.group(2)), float(m.group(3)), int(m.group(4))
-    up = adb("shell", "cat", "/proc/uptime").stdout.decode().split()[0]
-    now = int(float(up) * 1000)
-    playing = state in ("3", "PLAYING")
-    current = pos + ((now - updated) * speed if playing else 0)
-    log(f"media session: state={state} position={pos}ms speed={speed} updated={updated} now={now} -> {current / 1000:.1f}s")
-    return current / 1000
+def read_position():
+    """Position in seconds from the player's 'mm:ss / mm:ss' label (visible with the controls)."""
+    for t in visible_text(nodes(dump())):
+        m = re.match(r"^(\d+):(\d\d)(?::(\d\d))? / ", t.strip())
+        if m:
+            a, b, c = m.groups()
+            return int(a) * 3600 + int(b) * 60 + int(c) if c else int(a) * 60 + int(b)
+    return None
 
 
-def show_controls():
-    time.sleep(5)  # controls hide 3.5 s after they appear while playing
+LAST = {}
+
+
+def seek_step(label, fx, fy, expected_at_tap, tolerance=3):
+    """Shows the controls, taps (fx, fy) straight away, then reads the position.
+    expected_at_tap(previous) gives where playback should be right after the tap, from the previous
+    reading advanced to the tap time; None before the first reading."""
+    time.sleep(5)  # let the controls auto-hide (3.5 s while playing)
     ptap(0.5, 0.2, "screen to show controls")
-    time.sleep(0.7)
-
-
-def check(label, actual, expected, tolerance):
-    ok = actual is not None and abs(actual - expected) <= tolerance
-    log(f"RESULT seek {label}: expected ~{expected:.0f}s got {actual if actual is None else round(actual, 1)}s -> {'OK' if ok else 'FAIL'}")
-    return ok
+    time.sleep(0.6)
+    ptap(fx, fy, label)
+    tapped = time.time()
+    time.sleep(0.8)
+    started = time.time()
+    after = read_position()
+    read_at = time.time()
+    log(f"position read took {read_at - started:.1f}s")
+    shot(f"after-{label}")
+    previous = None
+    if LAST:
+        previous = LAST["pos"] + (tapped - LAST["at"])
+    expected = expected_at_tap(previous)
+    LAST.update(pos=after, at=read_at) if after is not None else LAST.clear()
+    if after is None or expected is None:
+        log(f"RESULT seek {label}: position after={after}, expected={expected} -> FAIL")
+        return after
+    expected += read_at - tapped
+    ok = abs(after - expected) <= tolerance
+    log(f"RESULT seek {label}: now {after}s, expected ~{expected:.0f}s -> {'OK' if ok else 'FAIL'}")
+    return after
 
 
 def seek_checks():
     duration = 213.0
     track_start, track_end, track_y = 0.11, 0.89, 0.75
 
-    def bar(fraction, label):
-        show_controls()
-        shot(f"controls-before-{label}")
-        ptap(track_start + (track_end - track_start) * fraction, track_y, f"seek bar at {label}")
-        tapped = time.time()
-        time.sleep(1.5)
-        shot(f"after-seek-{label}")
-        time.sleep(3)
-        p = media_position()
-        # Allow up to 3 s lost to re-buffering after the jump.
-        check(f"bar {label}", p, duration * fraction + (time.time() - tapped) - 1.5, 3.5)
-        return p
+    def at(fraction):
+        return track_start + (track_end - track_start) * fraction
 
-    def button(fx, delta, label):
-        show_controls()
-        before, t0 = media_position(), time.time()
-        ptap(fx, 0.489, label)
-        time.sleep(1.5)
-        shot(f"after-{label}")
-        time.sleep(3)
-        p = media_position()
-        if before is not None:
-            check(label, p, before + delta + (time.time() - t0) - 1.5, 3.5)
-        return p
-
+    time.sleep(3)
     shot("playing")
-    log(f"position before seeking: {media_position()}")
-    bar(0.5, "50pct")
-    button(0.65, 10, "forward-10s")
-    button(0.35, -10, "back-10s")
-    bar(0.9, "90pct")
-    p = bar(0.05, "5pct")
+    seek_step("bar-50pct", at(0.5), track_y, lambda prev: duration * 0.5)
+    seek_step("forward-10s", 0.65, 0.489, lambda prev: None if prev is None else prev + 10)
+    seek_step("back-10s", 0.35, 0.489, lambda prev: None if prev is None else prev - 10)
+    seek_step("bar-90pct", at(0.9), track_y, lambda prev: duration * 0.9)
+    p = seek_step("bar-5pct-backwards", at(0.05), track_y, lambda prev: duration * 0.05)
     t = time.time()
     time.sleep(15)
-    p2 = media_position()
+    ptap(0.5, 0.2, "screen to show controls")
+    time.sleep(0.6)
+    p2 = read_position()
+    elapsed = time.time() - t
+    shot("keeps-playing")
     if p is not None and p2 is not None:
-        gained, elapsed = p2 - p, time.time() - t
-        log(f"RESULT keeps playing after seeks: {p:.1f}s -> {p2:.1f}s in {elapsed:.1f}s -> {'OK' if abs(gained - elapsed) <= 3 else 'FAIL'}")
-    show_controls()
-    shot("final")
+        ok = abs((p2 - p) - elapsed) <= 3
+        log(f"RESULT keeps playing after seeks: {p}s -> {p2}s in {elapsed:.0f}s -> {'OK' if ok else 'FAIL'}")
+    else:
+        log(f"RESULT keeps playing after seeks: could not read position ({p}, {p2}) -> FAIL")
 
 try:
     main()

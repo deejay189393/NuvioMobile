@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: ytid-emulator-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   emulator:

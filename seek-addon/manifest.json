@@ -1,0 +1,24 @@
+{
+  "id": "local.seek.test",
+  "version": "1.0.0",
+  "name": "Seek Test",
+  "description": "A long public test video for checking player seeking",
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "seektest-"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "seek",
+      "name": "Seek test"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "id": "seektest-bbb",
+    "type": "movie",
+    "name": "Big Buck Bunny",
+    "poster": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Big_buck_bunny_poster_big.jpg",
+    "description": "Test item: a 10-minute public test video for checking player seeking.",
+    "releaseInfo": "2008"
+  }
+}

@@ -96,6 +96,47 @@ def tap_first(ns, patterns):
     return None
 
 
+def text_nodes_between(ns, top, bottom):
+    return [n for n in ns if n["clickable"] and not n["text"] and not n["desc"]
+            and n["b"][1] >= top and n["b"][3] <= bottom]
+
+
+def pass_profile_gate():
+    for i in range(12):
+        ns = shot(f"profile-{i}")
+        title = find(ns, r"Who.s watching\?")
+        if not title and not find(ns, "Create Profile") and not find(ns, "Add Profile"):
+            return True
+        if find(ns, "Create Profile"):
+            field = find(ns, "Profile name") or next((n for n in ns if "EditText" in n["cls"]), None)
+            if field:
+                tap(field)
+                time.sleep(1)
+                adb("shell", "input", "text", "Tester")
+                time.sleep(1)
+            ns = shot("profile-named")
+            button = find(ns, "Create Profile")
+            if button:
+                tap(button)
+            time.sleep(5)
+            continue
+        tester = find(ns, "Tester")
+        done = find(ns, "Done")
+        if tester and done:
+            tap(done)
+        elif tester:
+            tap(tester)
+        elif done and title:
+            candidates = text_nodes_between(ns, title["b"][3], done["b"][1])
+            log(f"add-profile candidates: {[c['b'] for c in candidates]}")
+            if candidates:
+                tap(candidates[0])
+        elif find(ns, "Manage Profiles"):
+            tap(find(ns, "Manage Profiles"))
+        time.sleep(4)
+    return False
+
+
 def open_url(url):
     r = adb("shell", "am", "start", "-W", "-a", "android.intent.action.VIEW", "-d", f"'{url}'", PKG)
     log(f"open {url}: {r.stdout.decode().strip()} {r.stderr.decode().strip()}")
@@ -109,17 +150,21 @@ def main():
     time.sleep(20)
     shot("launch")
 
-    # First run: sign-in choice, optional dialogs, profile pick.
-    first_run = [
-        "Continue Without Account", "Not now", "No thanks", "Maybe later", "Skip", "Later",
-        "Don't allow", "Allow", "Got it", "OK", "Continue", "Done", "Close",
-    ]
-    for i in range(14):
+    # First run: continue without an account, then create and pick a local profile.
+    for i in range(6):
         ns = shot(f"first-run-{i}")
-        hit = tap_first(ns, first_run)
-        if not hit:
+        if tap_first(ns, ["Continue Without Account"]):
+            time.sleep(5)
             break
-        time.sleep(4)
+        time.sleep(3)
+    if not pass_profile_gate():
+        log("RESULT: stuck at profile gate")
+        return
+    for i in range(4):
+        ns = shot(f"after-gate-{i}")
+        if not tap_first(ns, ["Not now", "No thanks", "Maybe later", "Skip", "Later", "Don't allow", "Got it"]):
+            break
+        time.sleep(3)
 
     open_url(f"stremio://{ADDON}")
     time.sleep(12)

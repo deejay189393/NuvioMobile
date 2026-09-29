@@ -14,15 +14,33 @@ concurrency:
 
 jobs:
   emulator:
-    name: Emulator (${{ matrix.flavor }})
+    name: Emulator (${{ matrix.name }})
     runs-on: ubuntu-latest
     timeout-minutes: 90
     strategy:
       fail-fast: false
       matrix:
-        flavor: [full, playstore]
+        include:
+          - name: full
+            flavor: full
+            baseline: false
+          - name: playstore
+            flavor: playstore
+            baseline: false
+          - name: baseline-full
+            flavor: full
+            baseline: true
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 3
+
+      - name: Revert the fix (baseline only)
+        if: matrix.baseline
+        run: |
+          git config user.name ci && git config user.email ci@localhost
+          git revert --no-edit HEAD~1
+          git log --oneline -3
 
       - uses: actions/setup-java@v5
         with:
@@ -56,7 +74,7 @@ jobs:
           cores: 4
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
-          script: python3 .ci-ytid/drive.py "$PWD/ci-out" "androidApp/build/outputs/apk/${{ matrix.flavor }}/debug/androidApp-${{ matrix.flavor }}-debug.apk" ${{ matrix.flavor }} || true
+          script: python3 .ci-ytid/drive.py "$PWD/ci-out" "androidApp/build/outputs/apk/${{ matrix.flavor }}/debug/androidApp-${{ matrix.flavor }}-debug.apk" ${{ matrix.name }} || true
 
       - name: Publish results to a branch
         if: always()
@@ -71,5 +89,5 @@ jobs:
           git config user.email deejay189393@gmail.com
           git checkout -q -b results
           git add -A
-          git commit -q -m "ytId emulator results (${{ matrix.flavor }}, run ${{ github.run_number }})"
-          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}" HEAD:refs/heads/ci-results/${{ github.run_number }}-${{ matrix.flavor }}
+          git commit -q -m "ytId emulator results (${{ matrix.name }}, run ${{ github.run_number }})"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}" HEAD:refs/heads/ci-results/${{ github.run_number }}-${{ matrix.name }}

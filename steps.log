@@ -1,0 +1,42 @@
+[02:00:46] flavor=playstore apk=androidApp/build/outputs/apk/playstore/debug/androidApp-playstore-debug.apk
+[02:00:57] Performing Streamed Install
+Success
+[02:01:22] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally']
+[02:01:26] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally']
+[02:01:26] tap 'Continue Without Account' at 540,1877
+[02:01:34] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[02:01:35] tap 'Manage Profiles' at 540,816
+[02:01:42] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[02:01:42] add-profile candidates: [(343, 641, 737, 1053)]
+[02:01:42] tap '' at 540,847
+[02:01:49] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:01:49] tap 'Profile name' at 247,845
+[02:01:55] keyboard hidden
+[02:01:58] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:01:58] tap 'Create Profile' at 540,2018
+[02:02:07] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:02:09] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:02:10] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 324
+WaitTime: 333
+Complete 
+[02:02:24] shot 09-addon-installed: ['Overview', '1', 'Addons', '1', 'Active', '1', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'YouTube ID Test', 'Version 1.0.0', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'Streams that only carry a ytId', 'Movie • catalog, meta, stream • 1 id rules', 'Back', 'Addons']
+[02:02:24] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 171
+WaitTime: 184
+Complete 
+[02:02:39] shot 10-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:02:46] shot 11-details-scroll-0: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:02:52] shot 12-details-scroll-1: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:02:59] shot 13-details-scroll-2: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:03:06] shot 14-details-scroll-3: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:03:19] shot 15-streams: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:03:32] shot 16-streams-retry: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:03:32] RESULT: ytId stream not listed
+[02:03:32] done

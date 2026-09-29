@@ -1,0 +1,85 @@
+09-29 02:00:57.507 D/AndroidRuntime( 4101): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:00:57.512 I/AndroidRuntime( 4101): Using default boot image
+09-29 02:00:57.512 I/AndroidRuntime( 4101): Leaving lock profiling enabled
+09-29 02:00:57.862 D/AndroidRuntime( 4101): Calling main entry com.android.commands.monkey.Monkey
+09-29 02:00:58.504 I/AndroidRuntime( 4101): VM exiting with result code 0.
+09-29 02:01:19.523 D/AndroidRuntime( 5066): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:01:19.529 I/AndroidRuntime( 5066): Using default boot image
+09-29 02:01:19.529 I/AndroidRuntime( 5066): Leaving lock profiling enabled
+09-29 02:01:19.906 D/AndroidRuntime( 5066): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:01:21.477 D/AndroidRuntime( 5066): Shutting down VM
+09-29 02:01:23.764 D/AndroidRuntime( 5264): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:01:23.778 I/AndroidRuntime( 5264): Using default boot image
+09-29 02:01:23.778 I/AndroidRuntime( 5264): Leaving lock profiling enabled
+09-29 02:01:24.085 D/AndroidRuntime( 5264): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:01:25.257 D/AndroidRuntime( 5264): Shutting down VM
+09-29 02:01:32.361 D/AndroidRuntime( 5601): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:01:32.368 I/AndroidRuntime( 5601): Using default boot image
+09-29 02:01:32.368 I/AndroidRuntime( 5601): Leaving lock profiling enabled
+09-29 02:01:32.694 D/AndroidRuntime( 5601): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:01:33.851 D/AndroidRuntime( 5601): Shutting down VM
+09-29 02:01:40.035 D/AndroidRuntime( 5692): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:01:40.041 I/AndroidRuntime( 5692): Using default boot image
+09-29 02:01:40.041 I/AndroidRuntime( 5692): Leaving lock profiling enabled
+09-29 02:01:40.286 D/AndroidRuntime( 5692): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:01:41.403 D/AndroidRuntime( 5692): Shutting down VM
+09-29 02:01:46.915 D/AndroidRuntime( 6050): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:01:46.922 I/AndroidRuntime( 6050): Using default boot image
+09-29 02:01:46.922 I/AndroidRuntime( 6050): Leaving lock profiling enabled
+09-29 02:01:47.160 D/AndroidRuntime( 6050): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:01:48.320 D/AndroidRuntime( 6050): Shutting down VM
+09-29 02:01:55.721 D/AndroidRuntime( 6238): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:01:55.729 I/AndroidRuntime( 6238): Using default boot image
+09-29 02:01:55.729 I/AndroidRuntime( 6238): Leaving lock profiling enabled
+09-29 02:01:56.015 D/AndroidRuntime( 6238): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:01:57.226 D/AndroidRuntime( 6238): Shutting down VM
+09-29 02:02:04.430 D/AndroidRuntime( 6375): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:04.440 I/AndroidRuntime( 6375): Using default boot image
+09-29 02:02:04.440 I/AndroidRuntime( 6375): Leaving lock profiling enabled
+09-29 02:02:04.775 D/AndroidRuntime( 6375): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:06.093 D/AndroidRuntime( 6375): Shutting down VM
+09-29 02:02:07.364 D/AndroidRuntime( 6402): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:07.369 I/AndroidRuntime( 6402): Using default boot image
+09-29 02:02:07.369 I/AndroidRuntime( 6402): Leaving lock profiling enabled
+09-29 02:02:07.650 D/AndroidRuntime( 6402): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:08.781 D/AndroidRuntime( 6402): Shutting down VM
+09-29 02:02:22.370 D/AndroidRuntime( 6503): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:22.374 I/AndroidRuntime( 6503): Using default boot image
+09-29 02:02:22.374 I/AndroidRuntime( 6503): Leaving lock profiling enabled
+09-29 02:02:22.555 D/AndroidRuntime( 6503): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:23.743 D/AndroidRuntime( 6503): Shutting down VM
+09-29 02:02:37.570 D/AndroidRuntime( 6554): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:37.574 I/AndroidRuntime( 6554): Using default boot image
+09-29 02:02:37.574 I/AndroidRuntime( 6554): Leaving lock profiling enabled
+09-29 02:02:37.750 D/AndroidRuntime( 6554): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:38.957 D/AndroidRuntime( 6554): Shutting down VM
+09-29 02:02:44.007 D/AndroidRuntime( 6584): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:44.012 I/AndroidRuntime( 6584): Using default boot image
+09-29 02:02:44.012 I/AndroidRuntime( 6584): Leaving lock profiling enabled
+09-29 02:02:44.240 D/AndroidRuntime( 6584): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:45.355 D/AndroidRuntime( 6584): Shutting down VM
+09-29 02:02:50.476 D/AndroidRuntime( 6674): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:50.481 I/AndroidRuntime( 6674): Using default boot image
+09-29 02:02:50.481 I/AndroidRuntime( 6674): Leaving lock profiling enabled
+09-29 02:02:50.684 D/AndroidRuntime( 6674): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:51.781 D/AndroidRuntime( 6674): Shutting down VM
+09-29 02:02:56.838 D/AndroidRuntime( 6719): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:02:56.842 I/AndroidRuntime( 6719): Using default boot image
+09-29 02:02:56.842 I/AndroidRuntime( 6719): Leaving lock profiling enabled
+09-29 02:02:57.012 D/AndroidRuntime( 6719): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:02:58.104 D/AndroidRuntime( 6719): Shutting down VM
+09-29 02:03:04.002 D/AndroidRuntime( 6780): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:03:04.008 I/AndroidRuntime( 6780): Using default boot image
+09-29 02:03:04.008 I/AndroidRuntime( 6780): Leaving lock profiling enabled
+09-29 02:03:04.179 D/AndroidRuntime( 6780): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:03:05.254 D/AndroidRuntime( 6780): Shutting down VM
+09-29 02:03:16.890 D/AndroidRuntime( 6806): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:03:16.895 I/AndroidRuntime( 6806): Using default boot image
+09-29 02:03:16.895 I/AndroidRuntime( 6806): Leaving lock profiling enabled
+09-29 02:03:17.073 D/AndroidRuntime( 6806): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:03:18.170 D/AndroidRuntime( 6806): Shutting down VM
+09-29 02:03:29.793 D/AndroidRuntime( 6834): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+09-29 02:03:29.798 I/AndroidRuntime( 6834): Using default boot image
+09-29 02:03:29.798 I/AndroidRuntime( 6834): Leaving lock profiling enabled
+09-29 02:03:29.973 D/AndroidRuntime( 6834): Calling main entry com.android.commands.uiautomator.Launcher
+09-29 02:03:31.068 D/AndroidRuntime( 6834): Shutting down VM

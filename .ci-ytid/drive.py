@@ -235,39 +235,93 @@ def main():
         shot("playstore-final")
         return
 
-    # Player: show controls, check position, seek via the slider and the +10s button.
-    for step in range(3):
-        adb("shell", "input", "tap", "900", "500")
-        time.sleep(1)
-        ns = shot(f"controls-{step}")
-        slider = find(ns, "Playback position")
-        if slider:
-            tap(slider, fx=0.5)
-            time.sleep(8)
-            shot("after-seek-50pct")
-            adb("shell", "input", "tap", "900", "500")
-            time.sleep(1)
-            ns = shot("controls-after-seek")
-            fwd = find(ns, "Seek forward 10 seconds")
-            if fwd:
-                tap(fwd)
-                time.sleep(1)
-                shot("after-forward-10s")
-            back = find(ns, "Seek backward 10 seconds")
-            if back:
-                time.sleep(4)
-                ns = shot("before-back")
-                back = find(ns, "Seek backward 10 seconds") or back
-                tap(back)
-                time.sleep(1)
-                shot("after-back-10s")
-            break
-        time.sleep(3)
-    time.sleep(20)
-    adb("shell", "input", "tap", "900", "500")
-    time.sleep(1)
-    shot("final")
+    seek_checks()
 
+
+def screen_dims():
+    png = adb("exec-out", "screencap", "-p").stdout
+    return int.from_bytes(png[16:20], "big"), int.from_bytes(png[20:24], "big")
+
+
+def ptap(fx, fy, label):
+    w, h = screen_dims()
+    x, y = int(w * fx), int(h * fy)
+    adb("shell", "input", "tap", str(x), str(y))
+    log(f"tap {label} at {x},{y} (screen {w}x{h})")
+
+
+def media_position():
+    """Current position in seconds from the app's media session, or None."""
+    out = adb("shell", "dumpsys", "media_session").stdout.decode("utf-8", "replace")
+    m = re.search(r"state=PlaybackState \{state=(\w+), position=(-?\d+),.*?speed=([\d.]+), updated=(\d+)", out)
+    if not m:
+        log("media session: no playback state")
+        return None
+    state, pos, speed, updated = m.group(1), int(m.group(2)), float(m.group(3)), int(m.group(4))
+    up = adb("shell", "cat", "/proc/uptime").stdout.decode().split()[0]
+    now = int(float(up) * 1000)
+    playing = state in ("3", "PLAYING")
+    current = pos + ((now - updated) * speed if playing else 0)
+    log(f"media session: state={state} position={pos}ms speed={speed} updated={updated} now={now} -> {current / 1000:.1f}s")
+    return current / 1000
+
+
+def show_controls():
+    time.sleep(5)  # controls hide 3.5 s after they appear while playing
+    ptap(0.5, 0.2, "screen to show controls")
+    time.sleep(0.7)
+
+
+def check(label, actual, expected, tolerance):
+    ok = actual is not None and abs(actual - expected) <= tolerance
+    log(f"RESULT seek {label}: expected ~{expected:.0f}s got {actual if actual is None else round(actual, 1)}s -> {'OK' if ok else 'FAIL'}")
+    return ok
+
+
+def seek_checks():
+    duration = 213.0
+    track_start, track_end, track_y = 0.11, 0.89, 0.75
+
+    def bar(fraction, label):
+        show_controls()
+        shot(f"controls-before-{label}")
+        ptap(track_start + (track_end - track_start) * fraction, track_y, f"seek bar at {label}")
+        tapped = time.time()
+        time.sleep(1.5)
+        shot(f"after-seek-{label}")
+        time.sleep(3)
+        p = media_position()
+        # Allow up to 3 s lost to re-buffering after the jump.
+        check(f"bar {label}", p, duration * fraction + (time.time() - tapped) - 1.5, 3.5)
+        return p
+
+    def button(fx, delta, label):
+        show_controls()
+        before, t0 = media_position(), time.time()
+        ptap(fx, 0.489, label)
+        time.sleep(1.5)
+        shot(f"after-{label}")
+        time.sleep(3)
+        p = media_position()
+        if before is not None:
+            check(label, p, before + delta + (time.time() - t0) - 1.5, 3.5)
+        return p
+
+    shot("playing")
+    log(f"position before seeking: {media_position()}")
+    bar(0.5, "50pct")
+    button(0.65, 10, "forward-10s")
+    button(0.35, -10, "back-10s")
+    bar(0.9, "90pct")
+    p = bar(0.05, "5pct")
+    t = time.time()
+    time.sleep(15)
+    p2 = media_position()
+    if p is not None and p2 is not None:
+        gained, elapsed = p2 - p, time.time() - t
+        log(f"RESULT keeps playing after seeks: {p:.1f}s -> {p2:.1f}s in {elapsed:.1f}s -> {'OK' if abs(gained - elapsed) <= 3 else 'FAIL'}")
+    show_controls()
+    shot("final")
 
 try:
     main()

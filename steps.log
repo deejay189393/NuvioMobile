@@ -1,0 +1,51 @@
+[02:41:30] flavor=playstore apk=androidApp/build/outputs/apk/playstore/debug/androidApp-playstore-debug.apk
+[02:41:40] Performing Streamed Install
+Success
+[02:42:05] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally']
+[02:42:09] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally']
+[02:42:09] tap 'Continue Without Account' at 540,1877
+[02:42:18] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[02:42:18] tap 'Manage Profiles' at 540,816
+[02:42:27] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[02:42:27] add-profile candidates: [(343, 641, 737, 1053)]
+[02:42:27] tap '' at 540,847
+[02:42:34] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:42:34] tap 'Profile name' at 247,845
+[02:42:41] keyboard hidden
+[02:42:44] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:42:44] tap 'Create Profile' at 540,2018
+[02:42:52] shot 07-profile-3: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:42:56] shot 08-profile-named: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:43:04] shot 09-profile-4: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:43:07] shot 10-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:43:07] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 463
+WaitTime: 484
+Complete 
+[02:43:22] shot 11-addon-installed: ['Overview', '1', 'Addons', '1', 'Active', '1', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'YouTube ID Test', 'Version 1.0.0', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'Streams that only carry a ytId', 'Movie • catalog, meta, stream • 1 id rules', 'Back', 'Addons']
+[02:43:22] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 272
+WaitTime: 283
+Complete 
+[02:43:37] shot 12-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Movie', '1987', 'View Details', 'YouTube ID streams - Movies', 'Never Gonna Give You Up', 'Never Gonna Give You Up', '1987', 'Home', 'Search', 'Library', 'Profile']
+[02:43:37] tap 'View Details' at 540,1154
+[02:43:50] shot 13-details-0: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Play', 'More actions', '1987', 'Test item. This addon\'s only stream for it is { "ytId": "dQw4w9WgXcQ" }.', 'Movie Details', 'Release Info', '1987', 'Back']
+[02:43:50] tap 'Play' at 489,1504
+[02:44:03] shot 14-streams: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'YouTube ID Test', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'Back']
+[02:44:03] RESULT: ytId stream listed
+[02:44:03] tap 'Never Gonna Give You Up\nytId only, no url' at 257,755
+[02:44:10] shot 15-after-select-1s: ['Welcome to Chrome']
+[02:44:15] shot 16-after-select-3s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[02:44:21] shot 17-after-select-6s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[02:44:34] shot 18-after-select-12s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[02:44:46] shot 19-after-select-25s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[02:44:59] shot 20-after-select-45s: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[02:45:14] focus after select: ['mCurrentFocus=Window{95fea5e u0 com.android.chrome/org.chromium.chrome.browser.firstrun.FirstRunActivity}']
+[02:45:16] shot 21-playstore-final: ['Welcome to Chrome', 'Add account to device', 'Use without an account', 'By continuing, you agree to the Terms of Service. To help improve the app, Chrome sends usage and crash data to Google. Manage']
+[02:45:16] done

@@ -1,0 +1,31 @@
+[01:31:26] flavor=full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[01:31:36] Performing Streamed Install
+Success
+[01:32:00] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[01:32:03] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[01:32:03] tap 'Continue Without Account' at 540,1877
+[01:32:09] shot 03-first-run-1: ["Who's watching?", 'Manage Profiles']
+[01:32:10] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 209
+WaitTime: 220
+Complete 
+[01:32:25] shot 04-addon-installed: ["Who's watching?", 'Manage Profiles']
+[01:32:25] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 139
+WaitTime: 162
+Complete 
+[01:32:40] shot 05-details: ["Who's watching?", 'Manage Profiles']
+[01:32:47] shot 06-details-scroll-0: ["Who's watching?", 'Manage Profiles']
+[01:32:53] shot 07-details-scroll-1: ["Who's watching?", 'Manage Profiles']
+[01:33:00] shot 08-details-scroll-2: ["Who's watching?", 'Manage Profiles']
+[01:33:06] shot 09-details-scroll-3: ["Who's watching?", 'Manage Profiles']
+[01:33:18] shot 10-streams: ["Who's watching?", 'Manage Profiles']
+[01:33:31] shot 11-streams-retry: ["Who's watching?", 'Manage Profiles']
+[01:33:31] RESULT: ytId stream not listed
+[01:33:31] done

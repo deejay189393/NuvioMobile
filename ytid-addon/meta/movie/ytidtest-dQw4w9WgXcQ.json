@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "id": "ytidtest-dQw4w9WgXcQ",
+    "type": "movie",
+    "name": "Never Gonna Give You Up",
+    "poster": "https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg",
+    "background": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+    "description": "Test item. This addon's only stream for it is { \"ytId\": \"dQw4w9WgXcQ\" }.",
+    "releaseInfo": "1987"
+  }
+}

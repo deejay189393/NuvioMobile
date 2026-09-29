@@ -96,6 +96,18 @@ def tap_first(ns, patterns):
     return None
 
 
+def keyboard_shown():
+    out = adb("shell", "dumpsys", "input_method").stdout.decode("utf-8", "replace")
+    return "mInputShown=true" in out or "isInputViewShown=true" in out
+
+
+def hide_keyboard():
+    if keyboard_shown():
+        adb("shell", "input", "keyevent", "4")
+        time.sleep(1)
+        log("keyboard hidden")
+
+
 def text_nodes_between(ns, top, bottom):
     return [n for n in ns if n["clickable"] and not n["text"] and not n["desc"]
             and n["b"][1] >= top and n["b"][3] <= bottom]
@@ -108,12 +120,14 @@ def pass_profile_gate():
         if not title and not find(ns, "Create Profile") and not find(ns, "Add Profile"):
             return True
         if find(ns, "Create Profile"):
-            field = find(ns, "Profile name") or next((n for n in ns if "EditText" in n["cls"]), None)
-            if field:
-                tap(field)
-                time.sleep(1)
-                adb("shell", "input", "text", "Tester")
-                time.sleep(1)
+            if not find(ns, "Tester"):
+                field = find(ns, "Profile name") or next((n for n in ns if "EditText" in n["cls"]), None)
+                if field:
+                    tap(field)
+                    time.sleep(1)
+                    adb("shell", "input", "text", "Tester")
+                    time.sleep(1)
+            hide_keyboard()
             ns = shot("profile-named")
             button = find(ns, "Create Profile")
             if button:

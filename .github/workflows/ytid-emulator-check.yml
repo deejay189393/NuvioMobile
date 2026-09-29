@@ -33,13 +33,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 3
+          fetch-depth: 20
 
       - name: Revert the fix (baseline only)
         if: matrix.baseline
         run: |
           git config user.name ci && git config user.email ci@localhost
-          git revert --no-edit HEAD~1
+          git revert --no-edit "$(git log --format=%H -1 --grep='^fix(streams): play streams that only have a ytId')"
           git log --oneline -3
 
       - uses: actions/setup-java@v5

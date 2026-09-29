@@ -268,64 +268,93 @@ def read_position():
     return None
 
 
-LAST = {}
+def screenshot_only(name):
+    counter[0] += 1
+    with open(f"{OUT}/{counter[0]:02d}-{name}.png", "wb") as f:
+        f.write(adb("exec-out", "screencap", "-p").stdout)
+    log(f"screenshot {counter[0]:02d}-{name}")
 
 
-def seek_step(label, fx, fy, expected_at_tap, tolerance=3):
-    """Shows the controls, taps (fx, fy) straight away, then reads the position.
-    expected_at_tap(previous) gives where playback should be right after the tap, from the previous
-    reading advanced to the tap time; None before the first reading."""
+def device_now():
+    return int(adb("shell", "date", "+%s%3N").stdout.decode().strip()) / 1000
+
+
+DIAG = re.compile(r"^\s*(\d+\.\d+).*NuvioPlayerDiag.*?(state=(\w+)|isPlaying=(\w+)|firstFrame).*?positionMs=(\d+)")
+
+
+def diag_events():
+    out = adb("logcat", "-d", "-v", "epoch", "-s", "NuvioPlayerDiag").stdout.decode("utf-8", "replace")
+    events = []
+    for line in out.splitlines():
+        m = DIAG.match(line)
+        if m:
+            t, _, state, playing, pos = m.groups()
+            kind = state or (f"isPlaying={playing}" if playing else "firstFrame")
+            events.append((float(t), kind, int(pos) / 1000))
+    return events
+
+
+def position_at(events, when):
+    """Playback position at device time `when`, from the last event while playing."""
+    last = None
+    for t, kind, pos in events:
+        if t > when:
+            break
+        last = (t, kind, pos)
+    if last is None:
+        return None
+    t, kind, pos = last
+    return pos + (when - t) if kind in ("isPlaying=true", "READY") else pos
+
+
+def seek_step(label, fx, fy, target, tolerance=2.5):
+    """Shows the controls and taps (fx, fy) at once. target(position_at_tap) is where the
+    player should jump to. Checks the player log for the jump and for playback resuming."""
     time.sleep(5)  # let the controls auto-hide (3.5 s while playing)
     ptap(0.5, 0.2, "screen to show controls")
     time.sleep(0.6)
+    tapped = device_now()
     ptap(fx, fy, label)
-    tapped = time.time()
-    time.sleep(0.8)
-    started = time.time()
-    after = read_position()
-    read_at = time.time()
-    log(f"position read took {read_at - started:.1f}s")
-    shot(f"after-{label}")
-    previous = None
-    if LAST:
-        previous = LAST["pos"] + (tapped - LAST["at"])
-    expected = expected_at_tap(previous)
-    LAST.update(pos=after, at=read_at) if after is not None else LAST.clear()
-    if after is None or expected is None:
-        log(f"RESULT seek {label}: position after={after}, expected={expected} -> FAIL")
-        return after
-    expected += read_at - tapped
-    ok = abs(after - expected) <= tolerance
-    log(f"RESULT seek {label}: now {after}s, expected ~{expected:.0f}s -> {'OK' if ok else 'FAIL'}")
-    return after
+    time.sleep(1.0)
+    screenshot_only(f"after-{label}")
+    time.sleep(4)
+    events = diag_events()
+    at_tap = position_at(events, tapped)
+    after = [e for e in events if e[0] >= tapped]
+    jump = next((e for e in after if e[1] == "BUFFERING"), None)
+    resumed = next((e for e in after if e[1] == "isPlaying=true"), None)
+    expected = target(at_tap) if at_tap is not None else None
+    if jump is None or expected is None:
+        log(f"RESULT seek {label}: no seek seen in the player log (position at tap {at_tap}) -> FAIL")
+        return
+    ok = abs(jump[2] - expected) <= tolerance and resumed is not None
+    resume_s = f"{resumed[0] - jump[0]:.1f}s later" if resumed else "never"
+    log(f"RESULT seek {label}: at {at_tap:.1f}s, jumped to {jump[2]:.1f}s (expected {expected:.1f}s), "
+        f"playing again {resume_s} -> {'OK' if ok else 'FAIL'}")
 
 
 def seek_checks():
-    duration = 213.0
+    duration = 213.04
     track_start, track_end, track_y = 0.11, 0.89, 0.75
 
     def at(fraction):
         return track_start + (track_end - track_start) * fraction
 
     time.sleep(3)
-    shot("playing")
-    seek_step("bar-50pct", at(0.5), track_y, lambda prev: duration * 0.5)
-    seek_step("forward-10s", 0.65, 0.489, lambda prev: None if prev is None else prev + 10)
-    seek_step("back-10s", 0.35, 0.489, lambda prev: None if prev is None else prev - 10)
-    seek_step("bar-90pct", at(0.9), track_y, lambda prev: duration * 0.9)
-    p = seek_step("bar-5pct-backwards", at(0.05), track_y, lambda prev: duration * 0.05)
-    t = time.time()
-    time.sleep(15)
+    screenshot_only("playing")
+    seek_step("bar-50pct", at(0.5), track_y, lambda now: duration * 0.5)
+    seek_step("forward-10s", 0.65, 0.489, lambda now: now + 10)
+    seek_step("back-10s", 0.35, 0.489, lambda now: now - 10)
+    seek_step("bar-90pct", at(0.9), track_y, lambda now: duration * 0.9)
+    seek_step("bar-5pct-backwards", at(0.05), track_y, lambda now: duration * 0.05)
+    start = device_now()
+    time.sleep(20)
+    events = diag_events()
+    stalls = [e for e in events if e[0] >= start and e[1] in ("BUFFERING", "ENDED", "IDLE", "isPlaying=false")]
+    log(f"RESULT keeps playing for 20s after the last seek: {'OK' if not stalls else 'FAIL ' + str(stalls)}")
     ptap(0.5, 0.2, "screen to show controls")
-    time.sleep(0.6)
-    p2 = read_position()
-    elapsed = time.time() - t
-    shot("keeps-playing")
-    if p is not None and p2 is not None:
-        ok = abs((p2 - p) - elapsed) <= 3
-        log(f"RESULT keeps playing after seeks: {p}s -> {p2}s in {elapsed:.0f}s -> {'OK' if ok else 'FAIL'}")
-    else:
-        log(f"RESULT keeps playing after seeks: could not read position ({p}, {p2}) -> FAIL")
+    time.sleep(0.8)
+    screenshot_only("final")
 
 try:
     main()

@@ -1,0 +1,79 @@
+[02:33:44] flavor=full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[02:33:48] Performing Streamed Install
+Success
+[02:34:12] shot 01-launch: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:34:15] shot 02-first-run-0: ['Watch your library, anywhere', 'Welcome Back', 'Sign in to access your library and progress', 'Email', 'Password', 'Sign In', "Don't have an account?", 'Sign Up', 'or', 'Sign In with Link', 'Continue Without Account', 'Your data will only be stored locally', 'Server options']
+[02:34:15] tap 'Continue Without Account' at 540,1877
+[02:34:23] shot 03-profile-0: ["Who's watching?", 'Manage Profiles']
+[02:34:23] tap 'Manage Profiles' at 540,816
+[02:34:30] shot 04-profile-1: ["Who's watching?", 'Add Profile', 'Done']
+[02:34:30] add-profile candidates: [(343, 641, 737, 1053)]
+[02:34:30] tap '' at 540,847
+[02:34:37] shot 05-profile-2: ['New profile', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Profile name', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:34:37] tap 'Profile name' at 247,845
+[02:34:43] keyboard hidden
+[02:34:45] shot 06-profile-named: ['T', 'Tester', 'New profile  |  Primary addons off', 'Avatar options will appear here when the catalog loads.', 'Tester', 'Use Primary Addons', "Share the main profile's addon setup instead of managing a separate list.", 'Custom avatar URL', 'Paste an image link, or leave this empty to use the built-in avatar catalog.', 'https://example.com/avatar.png', 'Choose an avatar', 'Loading avatars...', 'Create Profile', 'Back', 'Add Profile']
+[02:34:45] tap 'Create Profile' at 540,2018
+[02:34:53] shot 07-profile-3: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:34:55] shot 08-after-gate-0: ['No active addons', 'Enable or add an addon to see catalogs on Home.', 'Home', 'Search', 'Library', 'Profile']
+[02:34:55] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 169
+WaitTime: 193
+Complete 
+[02:35:10] shot 09-addon-installed: ['Overview', '2', 'Addons', '2', 'Active', '2', 'Catalogs', 'Add Addon', 'Addon URL', 'Install Addon', 'Installed Addons', 'YouTube ID Test', 'Version 1.0.0', 'Move addon down', 'Refresh addon', 'Delete addon', 'Active', '3 resources', '1 catalogs', 'Streams that only carry a ytId', 'Movie • catalog, meta, stream • 1 id rules', 'YouTube ID Test', 'Version 1.0.0', 'Back', 'Addons']
+[02:35:10] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 120
+WaitTime: 138
+Complete 
+[02:35:25] shot 10-details: ['Never Gonna Give You Up', 'Never Gonna Give You Up', 'Play', 'More actions', '1987', 'Test item. This addon\'s only stream for it is { "ytId": "dQw4w9WgXcQ" }.', 'Movie Details', 'Release Info', '1987', 'Back']
+[02:35:25] tap 'Play' at 489,1504
+[02:35:37] shot 11-streams: ['Never Gonna Give You Up', 'Refresh streams', 'All', 'YouTube ID Test', 'YouTube ID Test', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'YouTube ID Test', 'YouTube', 'Never Gonna Give You Up\nytId only, no url', 'Back']
+[02:35:37] RESULT: ytId stream listed
+[02:35:37] tap 'Never Gonna Give You Up\nytId only, no url' at 257,755
+[02:35:40] shot 12-after-select-1s: ['Close player', 'Never Gonna Give You Up', 'Loading YouTube video']
+[02:35:46] shot 13-after-select-3s: ['Close player', 'Never Gonna Give You Up', 'Buffering…']
+[02:35:53] shot 14-after-select-6s: []
+[02:36:07] shot 15-after-select-12s: []
+[02:36:23] shot 16-after-select-25s: []
+[02:36:37] shot 17-after-select-45s: []
+[02:36:57] shot 18-playing: []
+[02:36:57] media session: no playback state
+[02:36:57] position before seeking: None
+[02:37:06] tap screen to show controls at 1200,216 (screen 2400x1080)
+[02:37:11] shot 19-controls-before-50pct: []
+[02:37:14] tap seek bar at 50pct at 1200,810 (screen 2400x1080)
+[02:37:20] shot 20-after-seek-50pct: []
+[02:37:24] media session: no playback state
+[02:37:24] RESULT seek bar 50pct: expected ~115s got Nones -> FAIL
+[02:37:31] tap screen to show controls at 1200,216 (screen 2400x1080)
+[02:37:32] media session: no playback state
+[02:37:36] tap forward-10s at 1560,528 (screen 2400x1080)
+[02:37:44] shot 21-after-forward-10s: []
+[02:37:47] media session: no playback state
+[02:37:56] tap screen to show controls at 1200,216 (screen 2400x1080)
+[02:37:57] media session: no playback state
+[02:38:00] tap back-10s at 840,528 (screen 2400x1080)
+[02:38:08] shot 22-after-back-10s: []
+[02:38:11] media session: no playback state
+[02:38:19] tap screen to show controls at 1200,216 (screen 2400x1080)
+[02:38:25] shot 23-controls-before-90pct: []
+[02:38:27] tap seek bar at 90pct at 1948,810 (screen 2400x1080)
+[02:38:34] shot 24-after-seek-90pct: []
+[02:38:37] media session: no playback state
+[02:38:37] RESULT seek bar 90pct: expected ~201s got Nones -> FAIL
+[02:38:45] tap screen to show controls at 1200,216 (screen 2400x1080)
+[02:38:52] shot 25-controls-before-5pct: []
+[02:38:55] tap seek bar at 5pct at 357,810 (screen 2400x1080)
+[02:39:03] shot 26-after-seek-5pct: []
+[02:39:06] media session: no playback state
+[02:39:06] RESULT seek bar 5pct: expected ~20s got Nones -> FAIL
+[02:39:21] media session: no playback state
+[02:39:26] tap screen to show controls at 1200,216 (screen 2400x1080)
+[02:39:29] shot 27-final: ['Lock player controls', 'Close player', 'Seek backward 10 seconds', 'Play', 'Seek forward 10 seconds', 'Never Gonna Give You Up', '1987', 'Playback position', 'Subtitles', 'Audio', 'Sources', 'Playback speed 1x', 'Fit', 'More controls', '03:33 / 03:33']
+[02:39:29] done

@@ -1,0 +1,36 @@
+[02:00:56] flavor=full apk=androidApp/build/outputs/apk/full/debug/androidApp-full-debug.apk
+[02:01:05] Performing Streamed Install
+Success
+[02:01:28] shot 01-launch: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:01:31] shot 02-first-run-0: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:01:38] shot 03-first-run-1: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:01:43] shot 04-first-run-2: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:01:49] shot 05-first-run-3: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:01:55] shot 06-first-run-4: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:01] shot 07-first-run-5: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:06] shot 08-profile-0: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:09] shot 09-after-gate-0: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:10] open stremio://raw.githubusercontent.com/deejay189393/nuviomobile/ci-addon/ytid-addon/manifest.json: Starting: Intent { act=android.intent.action.VIEW dat=stremio://raw.githubusercontent.com/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 486
+WaitTime: 510
+Complete 
+[02:02:24] shot 10-addon-installed: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:25] open nuvio://meta?type=movie&id=ytidtest-dQw4w9WgXcQ: Starting: Intent { act=android.intent.action.VIEW dat=nuvio://meta/... pkg=com.nuviodebug.com }
+Status: ok
+LaunchState: WARM
+Activity: com.nuviodebug.com/com.nuvio.app.MainActivity
+TotalTime: 276
+WaitTime: 289
+Complete 
+[02:02:39] shot 11-details: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:45] shot 12-details-scroll-0: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:51] shot 13-details-scroll-1: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:02:57] shot 14-details-scroll-2: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:03:03] shot 15-details-scroll-3: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:03:15] shot 16-streams: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:03:28] shot 17-streams-retry: ["Pixel Launcher isn't responding", 'Close app', 'Wait']
+[02:03:28] RESULT: ytId stream not listed
+[02:03:28] done
